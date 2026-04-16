@@ -234,6 +234,7 @@ if (contactForm) {
 
     fields.forEach(id => {
       const el = document.getElementById(id);
+      if (!el) return;
       el.style.borderColor = '';
       if (!el.value.trim() || (id === 'formEmail' && !el.value.includes('@'))) {
         el.style.borderColor = '#e05a5a';
@@ -246,19 +247,20 @@ if (contactForm) {
 
     // Simulate submit
     submitBtn.disabled = true;
+    const originalText = btnText.textContent;
     btnText.textContent = 'Sending…';
 
     await new Promise(r => setTimeout(r, 1400));
 
-    submitBtn.style.display = 'none';
-    formSuccess.classList.add('show');
+    // Success state
+    const successMsg = document.getElementById('formSuccess');
+    if (successMsg) successMsg.classList.add('show');
     contactForm.reset();
 
     setTimeout(() => {
-      formSuccess.classList.remove('show');
-      submitBtn.style.display = '';
+      if (successMsg) successMsg.classList.remove('show');
       submitBtn.disabled = false;
-      btnText.textContent = 'Send Message';
+      btnText.textContent = originalText;
     }, 5000);
   });
 }
