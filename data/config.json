@@ -1,0 +1,82 @@
+{
+  "journal": {
+    "name": "Amir Hashmi – Official Portfolio",
+    "abbreviation": "Amir Hashmi",
+    "domain": "https://amirhashmi.com",
+    "established": 2025,
+    "frequency": "Quarterly",
+    "publisher": "Meer Foundation",
+    "publisher_url": "https://www.meerfoundation.co.in/",
+    "contact_email": ["amirhashmilive@gmail.com", "editor@amirhashmi.com"],
+    "whatsapp": "919826121177",
+    "whatsapp_community": "https://chat.whatsapp.com/EpVXdvvrbKc9HlyXKDfftB"
+  },
+  "submission": {
+    "google_form": "https://docs.google.com/forms/d/e/1FAIpQLSeLAeEVTKRf18Qks4Z_QXDYWUPiNAZirDUKz_TWLBIiiMMPtw/viewform?usp=publish-editor",
+    "email_primary": "amirhashmilive@gmail.com",
+    "email_secondary": "editor@amirhashmi.com"
+  },
+  "quarters": {
+    "Q1": {
+      "months": [1, 2, 3],
+      "name": "Jan–Mar",
+      "deadline_month": 3,
+      "deadline_day": 15,
+      "publication_month": 4,
+      "publication_start_day": 25,
+      "publication_end_day": 30
+    },
+    "Q2": {
+      "months": [4, 5, 6],
+      "name": "Apr–Jun",
+      "deadline_month": 6,
+      "deadline_day": 15,
+      "publication_month": 7,
+      "publication_start_day": 25,
+      "publication_end_day": 31
+    },
+    "Q3": {
+      "months": [7, 8, 9],
+      "name": "Jul–Sep",
+      "deadline_month": 9,
+      "deadline_day": 15,
+      "publication_month": 10,
+      "publication_start_day": 25,
+      "publication_end_day": 31
+    },
+    "Q4": {
+      "months": [10, 11, 12],
+      "name": "Oct–Dec",
+      "deadline_month": 12,
+      "deadline_day": 15,
+      "publication_month": 1,
+      "publication_start_day": 25,
+      "publication_end_day": 31,
+      "publication_year_offset": 1
+    }
+  },
+  "fees": {
+    "indian_apc": 3000,
+    "indian_apc_currency": "INR",
+    "indian_apc": 3000,
+    
+    
+    "late_submission_fee": 500,
+    "late_fee_currency": "INR",
+    "payment_url": "https://amirhashmi.com/book-now.html",
+    "payment_button_color": "#0072B2",
+    "gst_applicable": false
+  },
+  "analytics": {
+    "gtm_id": "GTM-NWHDPZRK",
+    "ga_id": "G-2FNJ68WF8J"
+  },
+  "social_media": {
+    "facebook": "https://facebook.com/amirhashmilive",
+    "instagram": "https://instagram.com/amirhashmilive",
+    "twitter": "https://twitter.com/amirhashmilive",
+    "linkedin": "https://linkedin.com/company/amirhashmilive",
+    "youtube": "https://youtube.com/@amirhashmilive",
+    "whatsapp_community": "https://chat.whatsapp.com/EpVXdvvrbKc9HlyXKDfftB"
+  }
+}

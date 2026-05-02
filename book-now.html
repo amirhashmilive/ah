@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amir Hashmi | Actor • Singer • Filmmaker • Author • Philanthropist</title>
+  <meta name="description" content="Official website of Amir Hashmi – National Award-winning filmmaker, author of Johar Gandhi, founder of Bolti Nadi river revival movement. Book for events.">
+  <meta name="keywords" content="Amir Hashmi, National Award filmmaker, Bolti Nadi, Johar Gandhi, Hindustani classical singer, Chhattisgarh">
+  <link rel="canonical" href="https://amirhashmi.com/book-now.html">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="theme-color" content="#2563EB">
+  <style>
+    .booking-form { max-width: 560px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px; }
+    .booking-form label { font-weight: 700; font-size: 0.95rem; color: var(--text-1); }
+    .booking-form input, .booking-form select, .booking-form textarea {
+      width: 100%; padding: 12px 14px; border: 1px solid var(--border); border-radius: var(--r-sm); font-size: 1rem; font-family: var(--font-sans);
+    }
+    .booking-form textarea { min-height: 120px; resize: vertical; }
+  </style>
+</head>
+<body>
+<div id="progress-bar"></div>
+<div id="site-header-inject"></div>
+
+<main id="main-content">
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">&gt;</span>
+        <span aria-current="page">Book now</span>
+      </nav>
+      <h1 class="page-title">Book an event</h1>
+      <p class="page-subtitle">Corporate, college, concert, wedding, or speaking engagement — share the details below. Replace the form action with your Formspree ID.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <form class="booking-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div>
+          <label for="name">Full name *</label>
+          <input id="name" name="name" type="text" required autocomplete="name">
+        </div>
+        <div>
+          <label for="email">Email address *</label>
+          <input id="email" name="email" type="email" required autocomplete="email">
+        </div>
+        <div>
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel">
+        </div>
+        <div>
+          <label for="event-type">Event type</label>
+          <select id="event-type" name="event_type">
+            <option value="Corporate">Corporate</option>
+            <option value="College">College</option>
+            <option value="Concert">Concert</option>
+            <option value="Wedding">Wedding</option>
+            <option value="Speaking">Speaking</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div>
+          <label for="event-date">Event date</label>
+          <input id="event-date" name="event_date" type="date">
+        </div>
+        <div>
+          <label for="venue">Venue / city</label>
+          <input id="venue" name="venue" type="text" autocomplete="address-level2">
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg" style="align-self:flex-start;">Submit</button>
+      </form>
+      <p style="text-align:center;margin-top:24px;color:var(--text-3);">Direct email: <a href="mailto:events@amirhashmi.com">events@amirhashmi.com</a></p>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer-inject"></div>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/core.js"></script>
+</body>
+</html>

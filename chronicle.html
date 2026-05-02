@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chronicle | Amir Hashmi</title>
+  <meta name="description" content="Blog and archive — articles, films, poetry, and commentary from Amir Hashmi. Search, filter by year or category, and read full posts.">
+  <meta name="keywords" content="Amir Hashmi, blog, Chronicle, Bolti Nadi, Johar Gandhi, filmmaker">
+  <link rel="canonical" href="https://amirhashmi.com/chronicle.html">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="theme-color" content="#2563EB">
+  <style>
+    .chronicle-toolbar {
+      display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px; align-items: flex-end;
+    }
+    .chronicle-toolbar .search-wrap { flex: 1 1 260px; }
+    .chronicle-toolbar .form-select { min-width: 170px; }
+    .chronicle-card-date {
+      font-size: 0.82rem; font-weight: 600; color: var(--amber);
+      display: block; margin-bottom: 4px;
+    }
+    .chronicle-card-img {
+      width: 100%; aspect-ratio: 16/10; object-fit: cover;
+      border-radius: var(--r); border: 1px solid var(--border); display: block;
+    }
+    .chronicle-skeleton {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;
+      margin-bottom: 24px;
+    }
+    .chronicle-skeleton-card {
+      height: 320px; border-radius: var(--r-xl); border: 1px solid var(--border);
+      background: linear-gradient(90deg, var(--bg-2) 25%, var(--border) 37%, var(--bg-2) 63%);
+      background-size: 400% 100%;
+      animation: chronicle-shimmer 1.2s ease-in-out infinite;
+    }
+    @keyframes chronicle-shimmer {
+      0% { background-position: 100% 0; }
+      100% { background-position: 0 0; }
+    }
+    #chronicle-empty {
+      text-align: center; padding: 48px 20px; color: var(--text-3); font-size: 1.05rem;
+    }
+    #chronicle-count { font-size: 0.9rem; color: var(--text-3); margin-bottom: 20px; font-weight: 600; }
+
+    /* Modal (Chronicle only) */
+    .chronicle-modal {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.65);
+      z-index: 1000;
+      display: none;
+      padding: 18px;
+      overflow-y: auto;
+    }
+    .chronicle-modal[aria-hidden="false"] { display: block; }
+    .chronicle-modal-panel {
+      max-width: 920px;
+      margin: 48px auto;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--r-2xl);
+      box-shadow: var(--sh-xl);
+      position: relative;
+    }
+    .chronicle-modal-header {
+      padding: 22px 26px;
+      border-bottom: 1px solid var(--border);
+      display: flex; gap: 14px; align-items: flex-start; justify-content: space-between;
+    }
+    .chronicle-modal-title {
+      font-family: var(--font-serif);
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--text-1);
+      line-height: 1.25;
+      margin: 0;
+    }
+    .chronicle-modal-meta { margin-top: 6px; font-size: 0.9rem; color: var(--amber); font-weight: 600; }
+    .chronicle-modal-close {
+      width: 38px; height: 38px;
+      border-radius: var(--r);
+      border: 1px solid var(--border);
+      background: var(--bg-2);
+      color: var(--text-2);
+      cursor: pointer;
+      transition: var(--t);
+      flex-shrink: 0;
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; font-weight: 900;
+    }
+    .chronicle-modal-close:hover { border-color: rgba(37,99,235,0.25); color: var(--blue); background: rgba(37,99,235,0.06); }
+    .chronicle-modal-body {
+      padding: 26px;
+    }
+    .chronicle-modal-body .post-content { font-size: 1rem; color: var(--text-2); line-height: 1.85; }
+    .chronicle-modal-body img { max-width: 100%; height: auto; border-radius: var(--r); }
+    .chronicle-modal-body iframe { max-width: 100%; }
+    .chronicle-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    .chronicle-badge {
+      display: inline-block; padding: 4px 12px;
+      border-radius: var(--r-full);
+      font-size: 0.72rem; font-weight: 700;
+      background: rgba(37,99,235,0.08);
+      color: var(--blue);
+      border: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+<div id="progress-bar"></div>
+<div id="site-header-inject"></div>
+
+<main id="main-content">
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">&gt;</span>
+        <span aria-current="page">Chronicle</span>
+      </nav>
+      <h1 class="page-title">Chronicle</h1>
+      <p class="page-subtitle">Blog archive from amirhashmi.wordpress.com — search, filter, and read full posts.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="chronicle-toolbar reveal">
+        <div class="search-wrap">
+          <label class="form-label" for="chronicle-search">Search</label>
+          <input type="search" id="chronicle-search" class="search-input" placeholder="Search titles and content…" autocomplete="off">
+        </div>
+        <div>
+          <label class="form-label" for="chronicle-year">Year</label>
+          <select id="chronicle-year" class="form-select" aria-label="Filter by year">
+            <option value="">All years</option>
+          </select>
+        </div>
+        <div>
+          <label class="form-label" for="chronicle-cat">Category</label>
+          <select id="chronicle-cat" class="form-select" aria-label="Filter by category">
+            <option value="">All categories</option>
+          </select>
+        </div>
+      </div>
+
+      <p id="chronicle-count" class="reveal" aria-live="polite"></p>
+
+      <div id="chronicle-skeleton" class="chronicle-skeleton" hidden>
+        <div class="chronicle-skeleton-card" aria-hidden="true"></div>
+        <div class="chronicle-skeleton-card" aria-hidden="true"></div>
+        <div class="chronicle-skeleton-card" aria-hidden="true"></div>
+      </div>
+
+      <div id="chronicle-grid" class="grid-3"></div>
+
+      <p id="chronicle-empty" hidden>No posts found.</p>
+
+      <nav id="chronicle-pagination" class="chronicle-pagination" aria-label="Pagination"></nav>
+    </div>
+  </section>
+</main>
+
+<!-- Chronicle modal (no separate pages) -->
+<div id="chronicle-modal" class="chronicle-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Chronicle post">
+  <div class="chronicle-modal-panel">
+    <div class="chronicle-modal-header">
+      <div>
+        <h2 id="chronicle-modal-title" class="chronicle-modal-title"></h2>
+        <p id="chronicle-modal-meta" class="chronicle-modal-meta"></p>
+        <div id="chronicle-modal-badges" class="chronicle-badges"></div>
+      </div>
+      <button type="button" class="chronicle-modal-close" id="chronicle-modal-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="chronicle-modal-body">
+      <div id="chronicle-modal-body" class="post-content"></div>
+    </div>
+  </div>
+</div>
+
+<div id="site-footer-inject"></div>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/chronicle.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "name": "Amir Hashmi — Official Portfolio",
+  "short_name": "Amir Hashmi",
+  "description": "National Award-winning filmmaker, author, singer, and founder of Bolti Nadi.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2563EB",
+  "orientation": "portrait-primary",
+  "categories": ["entertainment", "music", "education"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Films",
+      "url": "/films.html",
+      "description": "Films and documentaries"
+    },
+    {
+      "name": "Book now",
+      "url": "/book-now.html",
+      "description": "Event booking"
+    }
+  ]
+}
