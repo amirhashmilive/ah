@@ -9,7 +9,6 @@
   var currentImageIndex = 0;
 
   var elAllContainer = document.getElementById('all-gallery-container');
-  var elFeaturedContainer = document.getElementById('featured-gallery-container');
   var elEmpty = document.getElementById('gallery-empty');
   var elSearch = document.getElementById('gallery-search');
   var elYear = document.getElementById('gallery-year');
@@ -62,20 +61,6 @@
     `;
   }
 
-  function renderFeaturedEvents() {
-    if (!elFeaturedContainer) return;
-    elFeaturedContainer.innerHTML = '';
-    
-    var featured = allEvents.filter(function(e) { return e.isFeatured; });
-    
-    featured.forEach(function(ev) {
-      var art = document.createElement('div');
-      art.className = 'album-card featured-album';
-      art.innerHTML = createCardHtml(ev);
-      art.addEventListener('click', function() { openLightbox(ev.id, 0); });
-      elFeaturedContainer.appendChild(art);
-    });
-  }
 
   function openLightbox(eventId, index) {
     var ev = allEvents.find(function(e) { return e.id === eventId; });
@@ -198,15 +183,9 @@
       var grid = document.createElement('div');
       grid.className = 'gallery-grid';
       
-      grouped[y].sort(function(a, b) {
-        if (a.isFeatured && !b.isFeatured) return -1;
-        if (!a.isFeatured && b.isFeatured) return 1;
-        return 0;
-      });
-      
       grouped[y].forEach(function(ev) {
         var art = document.createElement('div');
-        art.className = 'album-card' + (ev.isFeatured ? ' featured-album' : '');
+        art.className = 'album-card';
         art.innerHTML = createCardHtml(ev);
         
         art.addEventListener('click', function() { openLightbox(ev.id, 0); });
@@ -266,7 +245,6 @@
         
         if (elSkelAll) elSkelAll.hidden = true;
         
-        renderFeaturedEvents();
         fillFilters();
         applyFilters();
       })
