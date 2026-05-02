@@ -8,7 +8,8 @@
   const HEADER = `
 <header class="site-header" id="site-header" role="banner">
   <div class="container header-inner">
-    <a href="/" class="brand" aria-label="Amir Hashmi Home">
+    <a href="index.html" class="brand" aria-label="Amir Hashmi Home">
+      <img src="assets/images/logo.png" alt="Amir Hashmi Logo" style="max-height: 40px; width: auto; object-fit: contain;">
       <div class="brand-mark" aria-hidden="true">AH</div>
       <div class="brand-text">
         <span class="brand-name">Amir Hashmi</span>
