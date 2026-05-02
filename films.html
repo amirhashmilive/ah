@@ -46,6 +46,41 @@
     .video-card h3 { padding: 16px 18px 8px; font-size: 1rem; font-family: var(--font-serif); font-weight: 700; }
     .ratio { position: relative; padding-bottom: 56.25%; height: 0; background: var(--navy); }
     .ratio iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    .highlight-blue-card {
+      background: linear-gradient(135deg, rgba(59,130,246,0.1) 0%, rgba(37,99,235,0.05) 100%) !important;
+      border-left: 4px solid #3b82f6 !important;
+      box-shadow: 0 10px 25px -5px rgba(59,130,246,0.2) !important;
+      grid-column: span 2;
+    }
+    @media (max-width: 768px) {
+      .highlight-blue-card {
+        grid-column: span 1;
+      }
+    }
+    .blue-feature-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #3b82f6;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 30px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .pinewood-tooltip {
+      font-size: 0.75rem;
+      color: var(--text-4);
+      background: var(--bg);
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid rgba(59,130,246,0.2);
+      margin-top: 12px;
+      line-height: 1.4;
+    }
   </style>
 </head>
 <body>
@@ -125,7 +160,7 @@
         </article>
 
         <!-- Mirror of the Clean India -->
-        <article class="video-card">
+        <article class="video-card highlight-blue-card">
           <div class="paper-subject-tag" style="margin:16px 18px 0; background: rgba(212,175,55,0.15); color: var(--gold); border: 1px solid var(--gold);">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="width:12px;height:12px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             National Award Winner
@@ -175,6 +210,27 @@
       <h2 class="section-title" style="margin-bottom:28px;">Documentaries</h2>
       <div class="video-grid">
         
+        <!-- Bolti Nadi -->
+        <article class="video-card highlight-blue-card">
+          <div class="paper-subject-tag blue-feature-badge" style="margin:16px 18px 0; border: 1px solid #3b82f6;">
+            🏆 OFFICIAL SELECTION – Lift-Off London Film Festival
+          </div>
+          <div class="ratio" style="margin-top: 16px;">
+            <iframe src="https://www.youtube.com/embed/N5o53upsJNM" title="Bolti Nadi – Save River Documentary" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          </div>
+          <div style="padding: 16px 18px 20px;">
+            <h3 style="margin: 0; padding: 0 0 8px 0;">Bolti Nadi – Save River Documentary</h3>
+            <h4 style="font-size: 0.8rem; color: var(--gold); text-transform: uppercase; margin: 0 0 12px 0;">Environmental Documentary</h4>
+            <p style="font-size: 0.9rem; color: var(--text-3); line-height: 1.5; margin-bottom: 12px;">
+              A documentary following Amir Hashmi's 90-kilometer journey along the Sakri River in Chhattisgarh. The river had been dry for nearly 30 years. This film documents the revival efforts, community mobilization, and environmental restoration. A landmark initiative for river conservation in India.
+            </p>
+            <a href="https://www.youtube.com/watch?v=MftV9fHXJuA&list=PLtxNODs0GqTmVUsIhOJCCgwoV2Wnyor5f" target="_blank" rel="noopener" style="font-size: 0.85rem; color: var(--blue); text-decoration: none; font-weight: 700;">Watch Full Uncut Playlist &rarr;</a>
+            <div class="pinewood-tooltip">
+              <strong>Pinewood Studios, London</strong> &ndash; Iconic film studio since 1936. Home to James Bond, Star Wars, Marvel Cinematic Universe, and countless blockbuster productions. The 007 Stage is one of the largest film stages in Europe.
+            </div>
+          </div>
+        </article>
+
         <!-- Lac & Tamarind -->
         <article class="video-card">
           <div class="ratio">
@@ -186,21 +242,6 @@
             <p style="font-size: 0.9rem; color: var(--text-3); line-height: 1.5; margin: 0;">
               A documentary showcasing lac cultivation in Kanker district and tamarind processing in Bastar district, Chhattisgarh. Women transform from collectors to decision-makers, driving economic empowerment and rural development. Produced for PRADAN.
             </p>
-          </div>
-        </article>
-
-        <!-- Bolti Nadi -->
-        <article class="video-card">
-          <div class="ratio">
-            <iframe src="https://www.youtube.com/embed/N5o53upsJNM" title="Bolti Nadi – Save River Documentary" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-          </div>
-          <div style="padding: 16px 18px 20px;">
-            <h3 style="margin: 0; padding: 0 0 8px 0;">Bolti Nadi – Save River Documentary</h3>
-            <h4 style="font-size: 0.8rem; color: var(--gold); text-transform: uppercase; margin: 0 0 12px 0;">Environmental Documentary &bull; 2019</h4>
-            <p style="font-size: 0.9rem; color: var(--text-3); line-height: 1.5; margin-bottom: 12px;">
-              A documentary following Amir Hashmi's 90-kilometer journey along the Sakri River in Chhattisgarh. The river had been dry for nearly 30 years. This film documents the revival efforts, community mobilization, and environmental restoration. A landmark initiative for river conservation in India.
-            </p>
-            <a href="https://www.youtube.com/watch?v=MftV9fHXJuA&list=PLtxNODs0GqTmVUsIhOJCCgwoV2Wnyor5f" target="_blank" rel="noopener" style="font-size: 0.85rem; color: var(--blue); text-decoration: none; font-weight: 700;">Watch Full Uncut Playlist &rarr;</a>
           </div>
         </article>
 
