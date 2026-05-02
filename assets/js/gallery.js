@@ -16,12 +16,9 @@
   var elSkelAll = document.getElementById('gallery-skeleton-all');
 
   var elModal = document.getElementById('gallery-modal');
-  var elModalTitle = document.getElementById('gallery-modal-title');
-  var elModalMeta = document.getElementById('gallery-modal-meta');
   var elModalImg = document.getElementById('lightbox-img');
   var elModalPrev = document.getElementById('lightbox-prev');
   var elModalNext = document.getElementById('lightbox-next');
-  var elModalCounter = document.getElementById('lightbox-counter');
   var elModalClose = document.getElementById('gallery-modal-close');
 
   function debounce(fn, ms) {
@@ -91,9 +88,6 @@
     currentEvent = ev;
     currentImageIndex = index || 0;
     
-    elModalTitle.textContent = ev.title;
-    elModalMeta.innerHTML = `<strong>${ev.year}</strong> &bull; ${escHtml(ev.category)}`;
-    
     updateLightboxImage();
     
     elModal.setAttribute('aria-hidden', 'false');
@@ -108,7 +102,6 @@
     var imgSrc = `assets/images/gallery/${currentEvent.slug}/${imgName}`;
     
     elModalImg.src = imgSrc;
-    elModalCounter.textContent = `${currentImageIndex + 1} / ${currentEvent.images.length}`;
     
     elModalPrev.style.display = currentEvent.images.length > 1 ? 'flex' : 'none';
     elModalNext.style.display = currentEvent.images.length > 1 ? 'flex' : 'none';

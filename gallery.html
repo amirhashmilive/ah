@@ -86,6 +86,12 @@
     
     .year-section { margin-bottom: 56px; }
     .year-header { font-family: var(--font-serif); font-size: 2rem; color: var(--gold); border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 24px; }
+    
+    .news-toolbar {
+      display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px; align-items: flex-end;
+    }
+    .news-toolbar .search-wrap { flex: 1 1 260px; }
+    .news-toolbar .form-select { min-width: 170px; }
   </style>
 </head>
 <body>
@@ -95,13 +101,15 @@
 <!-- ═══════════════════════════════════════════════════════
      HERO SECTION
 ═══════════════════════════════════════════════════════ -->
-<section class="page-hero">
+<section class="page-header">
   <div class="container">
-    <div class="page-hero-inner reveal">
-      <div class="hero-badge">Photo Archive</div>
-      <h1 class="page-title">Gallery &amp; Events</h1>
-      <p class="page-desc">A visual journey through concerts, public initiatives, youth workshops, and key milestones.</p>
-    </div>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="breadcrumb-sep">&gt;</span>
+      <span aria-current="page">Gallery</span>
+    </nav>
+    <h1 class="page-title">Gallery &amp; Events</h1>
+    <p class="page-subtitle">A visual journey through concerts, public initiatives, youth workshops, and key milestones.</p>
   </div>
 </section>
 
@@ -119,23 +127,29 @@
     </div>
 
     <!-- Filters -->
-    <div class="gallery-filters reveal" style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom: 40px;">
-      <div class="search-bar" style="max-width:400px; width:100%; flex: 1 1 200px;">
-        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="search" class="search-input" id="gallery-search" placeholder="Search events..." aria-label="Search events">
+    <div class="news-toolbar reveal">
+      <div class="search-wrap">
+        <label class="form-label" for="gallery-search">Search Events</label>
+        <input type="search" id="gallery-search" class="search-input" placeholder="Search events..." autocomplete="off">
       </div>
-      <select id="gallery-category" class="filter-select" aria-label="Filter by category" style="flex: 1 1 150px;">
-        <option value="">All Categories</option>
-        <option value="Concert">Concert</option>
-        <option value="Workshop">Workshop</option>
-        <option value="Guest Appearance">Guest Appearance</option>
-        <option value="Award">Award</option>
-        <option value="Initiative">Initiative</option>
-        <option value="Book Launch">Book Launch</option>
-      </select>
-      <select id="gallery-year" class="filter-select" aria-label="Filter by year" style="flex: 1 1 120px;">
-        <option value="">All years</option>
-      </select>
+      <div>
+        <label class="form-label" for="gallery-year">Year</label>
+        <select id="gallery-year" class="form-select" aria-label="Filter by year">
+          <option value="">All years</option>
+        </select>
+      </div>
+      <div>
+        <label class="form-label" for="gallery-category">Category</label>
+        <select id="gallery-category" class="form-select" aria-label="Filter by category">
+          <option value="">All categories</option>
+          <option value="Concert">Concert</option>
+          <option value="Workshop">Workshop</option>
+          <option value="Guest Appearance">Guest Appearance</option>
+          <option value="Award">Award</option>
+          <option value="Initiative">Initiative</option>
+          <option value="Book Launch">Book Launch</option>
+        </select>
+      </div>
     </div>
 
     <div id="gallery-skeleton-all" class="grid-3" aria-hidden="true" style="margin-top:24px;">
@@ -159,10 +173,6 @@
   <div class="modal-overlay" tabindex="-1"></div>
   <div class="modal-content modal-lg">
     <button class="modal-close" id="gallery-modal-close" aria-label="Close modal">&times;</button>
-    <div class="modal-header" style="border-bottom: 1px solid var(--border); padding-bottom: 15px; margin-bottom: 20px;">
-      <h2 id="gallery-modal-title" style="font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 5px;">Event Title</h2>
-      <div id="gallery-modal-meta" style="font-size: 0.85rem; color: var(--text-3);">Date &bull; Category</div>
-    </div>
     
     <div class="lightbox-container" style="position: relative; text-align: center;">
       <img id="lightbox-img" src="" alt="Event Image" style="max-width: 100%; max-height: 65vh; border-radius: var(--r-md); object-fit: contain; margin: 0 auto;">
@@ -173,10 +183,6 @@
       <button id="lightbox-next" class="modal-nav next" aria-label="Next image">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
       </button>
-    </div>
-    
-    <div id="lightbox-counter" style="text-align: center; margin-top: 15px; font-size: 0.9rem; color: var(--text-3); font-family: var(--font-mono);">
-      1 / 10
     </div>
   </div>
 </div>

@@ -1,53 +1,6 @@
 {
   "events": [
     {
-      "id": 39,
-      "title": "Kabir Events \u2013 with CM Baghel",
-      "slug": "2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel",
-      "year": 2023,
-      "date": "2023-01-01",
-      "description": "Appriaracne in Kabir Events with CM Bhupesh Baghel from 2023.",
-      "category": "Guest Appearance",
-      "isFeatured": false,
-      "coverImage": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/thumb_WhatsApp Image 2024-02-19 at 03.06.09 (1).jpeg",
-      "imageCount": 20,
-      "images": [
-        "WhatsApp Image 2024-02-19 at 03.06.09 (1).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.09.jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.10 (1).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.10 (2).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.10.jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.11 (1).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.11 (2).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.11.jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.12 (1).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.12 (2).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.12 (3).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.12.jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.13 (1).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.13 (2).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.13.jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.14 (1).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.14 (2).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.14.jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.15 (1).jpeg",
-        "WhatsApp Image 2024-02-19 at 03.06.15 (2).jpeg"
-      ]
-    },
-    {
-      "id": 38,
-      "title": "Johar Gandhi",
-      "slug": "2022-johar-gandhi",
-      "year": 2022,
-      "date": "2022-01-01",
-      "description": "Johar Gandhi from 2022.",
-      "category": "Book Launch",
-      "isFeatured": true,
-      "coverImage": "",
-      "imageCount": 0,
-      "images": []
-    },
-    {
       "id": 34,
       "title": "CPL Cricket Trials",
       "slug": "2021-cpl-cricket-trials",
@@ -56,7 +9,7 @@
       "description": "CPL Cricket Trials from 2021.",
       "category": "Event",
       "isFeatured": true,
-      "coverImage": "assets/images/gallery/2021-cpl-cricket-trials/thumb_Primary Image (2).jpg",
+      "coverImage": "assets/images/gallery/2021-cpl-cricket-trials/Primary Image (2).jpg",
       "imageCount": 5,
       "images": [
         "Primary Image (2).jpg",
@@ -75,7 +28,7 @@
       "description": "CPL Cricket Trials (amir hashmi is the brand ambassdor of CPL T 20 Cricket) chhattisgarh cricket premier leadge t20 from 2021.",
       "category": "Event",
       "isFeatured": true,
-      "coverImage": "assets/images/gallery/2021-cpl-cricket-trials-brand-ambassador/thumb_Primary Image.JPG",
+      "coverImage": "assets/images/gallery/2021-cpl-cricket-trials-brand-ambassador/Primary Image.JPG",
       "imageCount": 13,
       "images": [
         "Primary Image.JPG",
@@ -102,7 +55,7 @@
       "description": "Meer Ali Meer Concert in dhamtari, amir hashmi invited as guest from 2021.",
       "category": "Concert",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2021-meer-ali-meer-concert-in-dhamtari-amir-hashmi-invited-as-guest/thumb_PSX_20210203_143025.jpg",
+      "coverImage": "assets/images/gallery/2021-meer-ali-meer-concert-in-dhamtari-amir-hashmi-invited-as-guest/PSX_20210203_143025.jpg",
       "imageCount": 7,
       "images": [
         "PSX_20210203_143025.jpg",
@@ -123,7 +76,7 @@
       "description": "Rachna Utsav India Today from 2021.",
       "category": "Event",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2021-rachna-utsav-india-today/thumb_Primary Image.jpg",
+      "coverImage": "assets/images/gallery/2021-rachna-utsav-india-today/Primary Image.jpg",
       "imageCount": 7,
       "images": [
         "Primary Image.jpg",
@@ -144,7 +97,7 @@
       "description": "R3 Jamghat as geust from 2020.",
       "category": "Guest Appearance",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2020-r3-jamghat-as-geust/thumb_PSX_20200131_222129.jpg",
+      "coverImage": "assets/images/gallery/2020-r3-jamghat-as-geust/PSX_20200131_222129.jpg",
       "imageCount": 2,
       "images": [
         "PSX_20200131_222129.jpg",
@@ -160,7 +113,7 @@
       "description": "15 August Mithlesh from 2019.",
       "category": "Event",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2019-15-august-mithlesh/thumb_PSX_20190815_100717.jpg",
+      "coverImage": "assets/images/gallery/2019-15-august-mithlesh/PSX_20190815_100717.jpg",
       "imageCount": 11,
       "images": [
         "PSX_20190815_100717.jpg",
@@ -185,7 +138,7 @@
       "description": "Bemetara from 2019.",
       "category": "Event",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2019-bemetara/thumb_PSX_20190326_222002.jpg",
+      "coverImage": "assets/images/gallery/2019-bemetara/PSX_20190326_222002.jpg",
       "imageCount": 14,
       "images": [
         "PSX_20190326_222002.jpg",
@@ -213,7 +166,7 @@
       "description": "Bolti Nadi Conclave from 2019.",
       "category": "Initiative",
       "isFeatured": true,
-      "coverImage": "assets/images/gallery/2019-bolti-nadi-conclave/thumb_amir hashm news bite.00_00_04_18.Still001.jpg",
+      "coverImage": "assets/images/gallery/2019-bolti-nadi-conclave/amir hashm news bite.00_00_04_18.Still001.jpg",
       "imageCount": 20,
       "images": [
         "amir hashm news bite.00_00_04_18.Still001.jpg",
@@ -247,7 +200,7 @@
       "description": "International Day of Disabled Persons from 2019.",
       "category": "Initiative",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2019-international-day-of-disabled-persons/thumb_PSX_20191201_221307.jpg",
+      "coverImage": "assets/images/gallery/2019-international-day-of-disabled-persons/PSX_20191201_221307.jpg",
       "imageCount": 9,
       "images": [
         "PSX_20191201_221307.jpg",
@@ -270,7 +223,7 @@
       "description": "Kopalwani from 2019.",
       "category": "Initiative",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2019-kopalwani/thumb_PSX_20191118_210042.jpg",
+      "coverImage": "assets/images/gallery/2019-kopalwani/PSX_20191118_210042.jpg",
       "imageCount": 9,
       "images": [
         "PSX_20191118_210042.jpg",
@@ -293,7 +246,7 @@
       "description": "MCAI AGM Meeting with Music director Jatin Lalit from 2019.",
       "category": "Workshop",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2019-mcai-agm-meeting-with-music-director-jatin-lalit/thumb_Primary Image.jpg",
+      "coverImage": "assets/images/gallery/2019-mcai-agm-meeting-with-music-director-jatin-lalit/Primary Image.jpg",
       "imageCount": 9,
       "images": [
         "Primary Image.jpg",
@@ -310,13 +263,13 @@
     {
       "id": 31,
       "title": "Tiranga World Record \u2013 Flag Rally",
-      "slug": "2019-tiranga-world-record-event",
+      "slug": "2019-tiranga-flag-rally",
       "year": 2019,
       "date": "2019-01-01",
       "description": "Tiranga World Record Images (colobrated event with vasudhaiv kutumbakum foundation and meer foundation) amir hashmi host the event, and archive the world record from 2019.",
       "category": "Initiative",
       "isFeatured": true,
-      "coverImage": "assets/images/gallery/2019-tiranga-world-record-event/thumb_Primary Image (2).jpg",
+      "coverImage": "assets/images/gallery/2019-tiranga-flag-rally/Primary Image (2).jpg",
       "imageCount": 20,
       "images": [
         "Primary Image (2).jpg",
@@ -344,13 +297,13 @@
     {
       "id": 32,
       "title": "Tiranga World Record \u2013 Bike Rally",
-      "slug": "2019-tiranga-world-record-bike-rally",
+      "slug": "2019-tiranga-bike-rally",
       "year": 2019,
       "date": "2019-01-01",
       "description": "Tiranga World Record Images (colobrated event with vasudhaiv kutumbakum foundation and meer foundation) amir hashmi host the event, and archive the world record bike rally pictures from 2019.",
       "category": "Initiative",
       "isFeatured": true,
-      "coverImage": "assets/images/gallery/2019-tiranga-world-record-bike-rally/thumb_PSX_20190810_182452.jpg",
+      "coverImage": "assets/images/gallery/2019-tiranga-bike-rally/PSX_20190810_182452.jpg",
       "imageCount": 8,
       "images": [
         "PSX_20190810_182452.jpg",
@@ -372,7 +325,7 @@
       "description": "CNBC Awaz from 2018.",
       "category": "Guest Appearance",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2018-cnbc-awaz/thumb_IMG_20180316_210836.jpg",
+      "coverImage": "assets/images/gallery/2018-cnbc-awaz/IMG_20180316_210836.jpg",
       "imageCount": 3,
       "images": [
         "IMG_20180316_210836.jpg",
@@ -389,7 +342,7 @@
       "description": "KTUJM Party from 2018.",
       "category": "Event",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2018-ktujm-party/thumb_IMG_20180404_172950.jpg",
+      "coverImage": "assets/images/gallery/2018-ktujm-party/IMG_20180404_172950.jpg",
       "imageCount": 10,
       "images": [
         "IMG_20180404_172950.jpg",
@@ -413,7 +366,7 @@
       "description": "NGO Mahasangh Conclave from 2018.",
       "category": "Event",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2018-ngo-mahasangh-conclave/thumb_PSX_20190406_170818.jpg",
+      "coverImage": "assets/images/gallery/2018-ngo-mahasangh-conclave/PSX_20190406_170818.jpg",
       "imageCount": 1,
       "images": [
         "PSX_20190406_170818.jpg"
@@ -441,7 +394,7 @@
       "description": "Bemetara Annual Day Function (amir hashmi as cheif guest along with IAS reeta shandilya collector bemetara from 2017.",
       "category": "Guest Appearance",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2017-bemetara-annual-day-chief-guest/thumb_Amir Hashmi (Primary Image) .jpg (2).jpg",
+      "coverImage": "assets/images/gallery/2017-bemetara-annual-day-chief-guest/Amir Hashmi (Primary Image) .jpg (2).jpg",
       "imageCount": 20,
       "images": [
         "Amir Hashmi (Primary Image) .jpg (2).jpg",
@@ -475,7 +428,7 @@
       "description": "Dhamtari (Shri Krishna) from 2017.",
       "category": "Event",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2017-dhamtari-shri-krishna/thumb_IMG-20170213-WA0006.jpg",
+      "coverImage": "assets/images/gallery/2017-dhamtari-shri-krishna/IMG-20170213-WA0006.jpg",
       "imageCount": 1,
       "images": [
         "IMG-20170213-WA0006.jpg"
@@ -490,7 +443,7 @@
       "description": "IRS Academy from 2017.",
       "category": "Guest Appearance",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2017-irs-academy/thumb_IMG_2068.jpg",
+      "coverImage": "assets/images/gallery/2017-irs-academy/IMG_2068.jpg",
       "imageCount": 20,
       "images": [
         "IMG_2068.jpg",
@@ -524,7 +477,7 @@
       "description": "Acting Workshop from 2016.",
       "category": "Workshop",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2016-acting-workshop/thumb_2016 - Acting Workshop (2).jpg",
+      "coverImage": "assets/images/gallery/2016-acting-workshop/2016 - Acting Workshop (2).jpg",
       "imageCount": 7,
       "images": [
         "2016 - Acting Workshop (2).jpg",
@@ -545,7 +498,7 @@
       "description": "Art of Performing Workshop with St. Xaviers school student from 2016.",
       "category": "Workshop",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2016-art-of-performing-workshop-with-st-xaviers-school-student/thumb_Amir Hashmi (Primary Image) .jpg.jpg",
+      "coverImage": "assets/images/gallery/2016-art-of-performing-workshop-with-st-xaviers-school-student/Amir Hashmi (Primary Image) .jpg.jpg",
       "imageCount": 20,
       "images": [
         "Amir Hashmi (Primary Image) .jpg.jpg",
@@ -579,7 +532,7 @@
       "description": "Art of Performing Workshop with Youth from 2016.",
       "category": "Workshop",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2016-art-of-performing-workshop-with-youth/thumb_IMG_7709.jpg",
+      "coverImage": "assets/images/gallery/2016-art-of-performing-workshop-with-youth/IMG_7709.jpg",
       "imageCount": 20,
       "images": [
         "IMG_7709.jpg",
@@ -613,7 +566,7 @@
       "description": "Balodabazar Amir Hashmi Art of Performing Workshop (meer foundation initiative) from 2016.",
       "category": "Workshop",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2016-balodabazar-art-of-performing-workshop/thumb_Amir Hashmi (Primary Image) .jpg.jpg",
+      "coverImage": "assets/images/gallery/2016-balodabazar-art-of-performing-workshop/Amir Hashmi (Primary Image) .jpg.jpg",
       "imageCount": 7,
       "images": [
         "Amir Hashmi (Primary Image) .jpg.jpg",
@@ -634,7 +587,7 @@
       "description": "Chhattisgarh ki Shaan (judge for grand finale competition state level singing competition) from 2016.",
       "category": "Award",
       "isFeatured": true,
-      "coverImage": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/thumb_2016 - Chhattisgarh ki Shaan (2).jpg",
+      "coverImage": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016 - Chhattisgarh ki Shaan (2).jpg",
       "imageCount": 5,
       "images": [
         "2016 - Chhattisgarh ki Shaan (2).jpg",
@@ -653,7 +606,7 @@
       "description": "Cicasa fest (amir hashmi on concert) from 2015.",
       "category": "Concert",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2015-cicasa-fest-amir-hashmi-on-concert/thumb_Amir Hashmi (Primary Image) .jpg.jpg",
+      "coverImage": "assets/images/gallery/2015-cicasa-fest-amir-hashmi-on-concert/Amir Hashmi (Primary Image) .jpg.jpg",
       "imageCount": 1,
       "images": [
         "Amir Hashmi (Primary Image) .jpg.jpg"
@@ -668,7 +621,7 @@
       "description": "Kyu Aisa Hota Hain from 2015.",
       "category": "Event",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2015-kyu-aisa-hota-hain/thumb_KyuAisaHotaHian Music Launch Event .jpg",
+      "coverImage": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg",
       "imageCount": 20,
       "images": [
         "KyuAisaHotaHian Music Launch Event .jpg",
@@ -702,7 +655,7 @@
       "description": "Music Workshop Event at Bhilai with Youths from 2015.",
       "category": "Workshop",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/thumb_2015 - Music Workshop Event at Bhilai with Youths (0).jpg",
+      "coverImage": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (0).jpg",
       "imageCount": 15,
       "images": [
         "2015 - Music Workshop Event at Bhilai with Youths (0).jpg",
@@ -731,7 +684,7 @@
       "description": "New Year Celebration host by amir hashmi vibe from 2015.",
       "category": "Event",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/thumb_2015 - New Year Celebration host by amir hashmi vibe (2).jpg",
+      "coverImage": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015 - New Year Celebration host by amir hashmi vibe (2).jpg",
       "imageCount": 6,
       "images": [
         "2015 - New Year Celebration host by amir hashmi vibe (2).jpg",
@@ -751,7 +704,7 @@
       "description": "Student Workshop Event at 36 mall raipur from 2015.",
       "category": "Workshop",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/thumb_2015 - Student Workshop Event at 36 mall raipur (3).jpg",
+      "coverImage": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015 - Student Workshop Event at 36 mall raipur (3).jpg",
       "imageCount": 7,
       "images": [
         "2015 - Student Workshop Event at 36 mall raipur (3).jpg",
@@ -772,7 +725,7 @@
       "description": "Chhattisgarh Rajyotsav (Amir Hashmi on Concert) from 2014.",
       "category": "Concert",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/thumb_Amir Hashmi (Primary Image) .jpg",
+      "coverImage": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/Amir Hashmi (Primary Image) .jpg",
       "imageCount": 6,
       "images": [
         "Amir Hashmi (Primary Image) .jpg",
@@ -792,7 +745,7 @@
       "description": "Rajim Kumbh Mahotsav (amir hashmi on concert - sufi concert) from 2014.",
       "category": "Concert",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/thumb_Amir Hashmi (Primary Image)  (2).jpg",
+      "coverImage": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/Amir Hashmi (Primary Image)  (2).jpg",
       "imageCount": 10,
       "images": [
         "Amir Hashmi (Primary Image)  (2).jpg",
@@ -816,7 +769,7 @@
       "description": "Workshop with youth (meer foundation initiative) from 2014.",
       "category": "Workshop",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2014-workshop-with-youth-meer-foundation-initiative/thumb_Amir Hashmi (Primary Image) .jpg (2).jpg",
+      "coverImage": "assets/images/gallery/2014-workshop-with-youth-meer-foundation-initiative/Amir Hashmi (Primary Image) .jpg (2).jpg",
       "imageCount": 2,
       "images": [
         "Amir Hashmi (Primary Image) .jpg (2).jpg",
@@ -832,16 +785,16 @@
       "description": "Gujra Village (Meer Foundation Event on a remote village) from 2013.",
       "category": "Event",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2013-gujra-village-meer-foundation-event-on-a-remote-village/thumb_Amir Hashmi (Primary Image) .jpg.jpg",
+      "coverImage": "assets/images/gallery/2013-gujra-village-meer-foundation-event-on-a-remote-village/Amir Hashmi (Primary Image) .jpg.jpg",
       "imageCount": 8,
       "images": [
-        "Amir Hashmi (Primary Image) .jpg.jpg",
         "10547421_761948677200799_8596384183812883280_n.jpg",
         "10610676_761948000534200_1410810601378916105_n.jpg",
         "10610752_761947273867606_3498937252611511393_n.jpg",
         "12506_761948347200832_8273513598764879659_n.jpg",
         "1888625_761946410534359_2612850573387797115_n(1).jpg",
         "1888625_761946410534359_2612850573387797115_n.jpg",
+        "Amir Hashmi (Primary Image) .jpg.jpg",
         "IMG_0113_edit.jpg"
       ]
     },
@@ -854,7 +807,7 @@
       "description": "Bhoramdev Mahotsav (Sufi Concert Performance) from 2012.",
       "category": "Concert",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/thumb_Amir Hashmi (Primary Image) .jpg (10).JPG",
+      "coverImage": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (10).JPG",
       "imageCount": 13,
       "images": [
         "Amir Hashmi (Primary Image) .jpg (10).JPG",
@@ -873,55 +826,30 @@
       ]
     },
     {
-      "id": 1,
-      "title": "Indian Ocean Police Ground event backend",
-      "slug": "2010-indian-ocean-police-ground-event-backend",
-      "year": 2010,
-      "date": "2010-01-01",
-      "description": "Indian Ocean Police Ground event backend from 2010.",
-      "category": "Event",
-      "isFeatured": false,
-      "coverImage": "assets/images/gallery/2010-indian-ocean-police-ground-event-backend/thumb_Amir Hashmi (Primary Image) .jpg.jpg",
-      "imageCount": 3,
-      "images": [
-        "Amir Hashmi (Primary Image) .jpg.jpg",
-        "2010-11-11 (4).JPG",
-        "Indian Ocean - With Amir Hashmi (Raipur,2010) (Events).jpg"
-      ]
+      "id": 38,
+      "title": "Johar Gandhi \u2013 Book Launch",
+      "slug": "2022-johar-gandhi-book-launch",
+      "year": 2022,
+      "date": "2022-01-01",
+      "description": "Johar Gandhi \u2013 Book Launch",
+      "category": "Book Launch",
+      "isFeatured": true,
+      "coverImage": "",
+      "imageCount": 0,
+      "images": []
     },
     {
-      "id": 2,
-      "title": "Star of the Year (Judge for the Audition Round in Durg)",
-      "slug": "2010-star-of-the-year-judge-for-the-audition-round-in-durg",
-      "year": 2010,
-      "date": "2010-01-01",
-      "description": "Star of the Year (Judge for the Audition Round in Durg) from 2010.",
-      "category": "Award",
+      "id": 9991,
+      "title": "Johar Gandhi \u2013 Panel Discussion",
+      "slug": "2022-johar-gandhi-panel-discussion",
+      "year": 2022,
+      "date": "2022-01-01",
+      "description": "Johar Gandhi \u2013 Panel Discussion",
+      "category": "Event",
       "isFeatured": false,
-      "coverImage": "assets/images/gallery/2010-star-of-the-year-judge-for-the-audition-round-in-durg/thumb_Amir Hashmi (Primary Image) .jpg (2).jpg",
-      "imageCount": 20,
-      "images": [
-        "Amir Hashmi (Primary Image) .jpg (2).jpg",
-        "100_7309.JPG",
-        "100_7311.JPG",
-        "100_7312.JPG",
-        "100_7313.JPG",
-        "100_7314.JPG",
-        "100_7315.JPG",
-        "100_7316.JPG",
-        "100_7317.JPG",
-        "100_7318.JPG",
-        "100_7319.JPG",
-        "100_7320 (2).JPG",
-        "100_7320.JPG",
-        "100_7321.JPG",
-        "100_7322.JPG",
-        "100_7323.JPG",
-        "100_7324.JPG",
-        "100_7325.JPG",
-        "100_7326.JPG",
-        "100_7327.JPG"
-      ]
+      "coverImage": "",
+      "imageCount": 0,
+      "images": []
     }
   ]
 }
