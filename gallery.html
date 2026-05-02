@@ -22,66 +22,73 @@
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
-    .album-collage {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      gap: 4px;
-      aspect-ratio: 16/9;
+    .album-card {
+      display: block;
       cursor: pointer;
       border-radius: 12px;
       overflow: hidden;
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      transition: transform 0.3s ease, border-color 0.3s ease;
       position: relative;
+    }
+    .album-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
     }
     .album-primary {
       width: 100%;
-      height: 100%;
+      aspect-ratio: 16/10;
       object-fit: cover;
-      grid-row: span 2;
+      display: block;
+      transition: transform 0.5s ease;
     }
-    .album-secondary-grid {
-      display: grid;
-      grid-template-rows: 1fr 1fr;
-      gap: 4px;
+    .album-card:hover .album-primary {
+      transform: scale(1.05);
     }
-    .album-secondary {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    .album-info {
+      padding: 16px;
     }
-    .event-title-overlay {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: linear-gradient(transparent, rgba(0,0,0,0.8));
-      padding: 30px 12px 12px;
+    .album-title {
+      margin: 0;
+      font-size: 1.1rem;
+      line-height: 1.4;
+      color: var(--text-1);
+    }
+    .album-meta {
+      font-size: 0.85rem;
+      color: var(--text-3);
+      margin-top: 6px;
+    }
+    
+    #scroll-to-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 48px;
+      height: 48px;
+      background: var(--gold);
+      color: var(--bg);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       opacity: 0;
-      transition: opacity 0.3s;
+      visibility: hidden;
+      transform: translateY(20px);
+      transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+      z-index: 99;
+      box-shadow: 0 4px 12px rgba(212,175,55,0.3);
     }
-    .album-collage:hover .event-title-overlay {
+    #scroll-to-top.show {
       opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
     }
-    @media (max-width: 768px) {
-      .album-collage {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        aspect-ratio: auto;
-      }
-      .album-primary {
-        aspect-ratio: 16/9;
-        grid-row: auto;
-      }
-      .album-secondary-grid {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-      }
-      .album-secondary {
-        aspect-ratio: 16/9;
-      }
-      .event-title-overlay {
-        opacity: 1; /* Always visible on mobile */
-        background: rgba(0,0,0,0.6);
-      }
+    #scroll-to-top:hover {
+      background: #c39c2d;
     }
     
     .year-section { margin-bottom: 56px; }
@@ -92,6 +99,162 @@
     }
     .news-toolbar .search-wrap { flex: 1 1 260px; }
     .news-toolbar .form-select { min-width: 170px; }
+
+    /* Full Page Viewer */
+    #gallery-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #000;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+    #gallery-modal[aria-hidden="false"] {
+      opacity: 1;
+      visibility: visible;
+    }
+    .viewer-content {
+      position: relative;
+      width: 100%;
+      height: calc(100vh - 100px); /* Leave room for thumbnails */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #lightbox-img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      user-select: none;
+    }
+    .viewer-close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 40px;
+      cursor: pointer;
+      z-index: 10000;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: color 0.3s ease;
+    }
+    .viewer-close:hover {
+      color: var(--gold);
+    }
+    .viewer-prev, .viewer-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 50px;
+      cursor: pointer;
+      z-index: 10000;
+      padding: 20px;
+      transition: color 0.3s ease;
+    }
+    .viewer-prev {
+      left: 10px;
+    }
+    .viewer-next {
+      right: 10px;
+    }
+    .viewer-prev:hover, .viewer-next:hover {
+      color: var(--gold);
+    }
+    .viewer-thumbnails-container {
+      height: 100px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .viewer-thumbnails {
+      display: flex;
+      gap: 12px;
+      padding: 10px;
+      max-width: 100%;
+      overflow-x: auto;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none;
+    }
+    .viewer-thumbnails::-webkit-scrollbar {
+      display: none; /* Safari and Chrome */
+    }
+    .viewer-thumbnail {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      cursor: pointer;
+      opacity: 0.5;
+      border: 2px solid transparent;
+      transition: opacity 0.3s ease, border-color 0.3s ease;
+      flex-shrink: 0;
+    }
+    .viewer-thumbnail:hover {
+      opacity: 0.8;
+    }
+    .viewer-thumbnail.active {
+      opacity: 1;
+      border-color: var(--gold);
+    }
+
+    /* Mobile (max-width: 768px) */
+    @media (max-width: 768px) {
+      .viewer-thumbnail {
+        width: 40px;
+        height: 40px;
+      }
+      .viewer-prev, .viewer-next {
+        font-size: 36px;
+        padding: 30px 15px;
+      }
+      .viewer-close {
+        font-size: 32px;
+        top: 15px;
+        right: 20px;
+      }
+      .viewer-thumbnails {
+        gap: 8px;
+        padding: 10px 5px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        justify-content: flex-start;
+      }
+      .viewer-content {
+        height: calc(100vh - 80px);
+      }
+      .viewer-thumbnails-container {
+        height: 80px;
+      }
+    }
+
+    /* Tablet (max-width: 1024px) */
+    @media (max-width: 1024px) and (min-width: 769px) {
+      .viewer-thumbnail {
+        width: 50px;
+        height: 50px;
+      }
+      .viewer-prev, .viewer-next {
+        font-size: 44px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -169,20 +332,23 @@
 <!-- ═══════════════════════════════════════════════════════
      LIGHTBOX MODAL
 ═══════════════════════════════════════════════════════ -->
-<div id="gallery-modal" class="modal gallery-modal" aria-hidden="true" role="dialog" aria-labelledby="gallery-modal-title">
-  <div class="modal-overlay" tabindex="-1"></div>
-  <div class="modal-content modal-lg">
-    <button class="modal-close" id="gallery-modal-close" aria-label="Close modal">&times;</button>
+<div id="gallery-modal" aria-hidden="true" role="dialog">
+  <button class="viewer-close" id="gallery-modal-close" aria-label="Close modal">&times;</button>
+  
+  <div class="viewer-content" id="viewer-container">
+    <img id="lightbox-img" src="" alt="Event Image">
     
-    <div class="lightbox-container" style="position: relative; text-align: center;">
-      <img id="lightbox-img" src="" alt="Event Image" style="max-width: 100%; max-height: 65vh; border-radius: var(--r-md); object-fit: contain; margin: 0 auto;">
-      
-      <button id="lightbox-prev" class="modal-nav prev" aria-label="Previous image">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
-      </button>
-      <button id="lightbox-next" class="modal-nav next" aria-label="Next image">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
-      </button>
+    <button id="lightbox-prev" class="viewer-prev" aria-label="Previous image">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:1em;height:1em;"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button id="lightbox-next" class="viewer-next" aria-label="Next image">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:1em;height:1em;"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
+  
+  <div class="viewer-thumbnails-container">
+    <div class="viewer-thumbnails" id="viewer-thumbnails">
+      <!-- Thumbnails injected by JS -->
     </div>
   </div>
 </div>
@@ -192,6 +358,10 @@
 <script src="assets/js/gallery.js"></script>
 <script src="assets/js/components.js"></script>
 <div id="ah-footer-inject"></div>
+
+<button id="scroll-to-top" aria-label="Scroll to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:24px;height:24px;"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
 
 </body>
 </html>

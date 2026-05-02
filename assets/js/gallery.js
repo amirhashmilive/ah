@@ -20,6 +20,8 @@
   var elModalPrev = document.getElementById('lightbox-prev');
   var elModalNext = document.getElementById('lightbox-next');
   var elModalClose = document.getElementById('gallery-modal-close');
+  var elViewerContainer = document.getElementById('viewer-container');
+  var elThumbnails = document.getElementById('viewer-thumbnails');
 
   function debounce(fn, ms) {
     var t;
@@ -39,45 +41,23 @@
       .replace(/'/g, '&#039;');
   }
 
-  function createCollageHtml(ev) {
+  function createCardHtml(ev) {
     var cover = ev.coverImage || 'assets/images/blog-placeholder.jpg';
     var cat = ev.category || 'Event';
     var year = ev.year || '';
-    
-    // Get up to 3 secondary images
-    var secondaryHtml = '';
     var images = ev.images || [];
-    var maxSecondary = 3;
-    var count = 0;
-    
-    // Create the secondary grid with dynamic rows based on how many images we actually have
-    for (var i = 0; i < images.length && count < maxSecondary; i++) {
-      var imgSrc = `assets/images/gallery/${ev.slug}/${images[i]}`;
-      // Skip if it's the exact same filename as cover image to avoid duplication
-      if (cover.indexOf(images[i]) === -1) {
-        secondaryHtml += `<img src="${escHtml(imgSrc)}" class="album-secondary" alt="" loading="lazy">`;
-        count++;
-      }
-    }
-    
-    // Fallback if no secondary images
-    if (count === 0) {
-      secondaryHtml = `<img src="${escHtml(cover)}" class="album-secondary" alt="" loading="lazy">`;
-      count = 1;
-    }
-    
-    var gridStyle = count > 1 ? `grid-template-rows: repeat(${count}, 1fr);` : `grid-template-rows: 1fr;`;
 
     return `
-      <img src="${escHtml(cover)}" alt="${escHtml(ev.title)}" class="album-primary" loading="lazy">
-      <div class="album-secondary-grid" style="${gridStyle}">
-        ${secondaryHtml}
+      <div style="position:relative; overflow:hidden;">
+        <img src="${escHtml(cover)}" alt="${escHtml(ev.title)}" class="album-primary" loading="lazy">
+        <span style="position:absolute; top:12px; right:12px; background: rgba(0,0,0,0.8); color: #fff; padding: 4px 10px; font-size: 0.75rem; border-radius: 6px; font-weight: 700; z-index:2; border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(4px);">${ev.imageCount || images.length} Photos</span>
       </div>
-      <div class="event-title-overlay">
-        <h3 style="margin:0; font-size: 1.1rem; color: #fff; line-height:1.3;">${escHtml(ev.title)}</h3>
-        <div style="font-size: 0.8rem; color: var(--gold); margin-top: 4px;">${escHtml(cat)} &bull; ${ev.imageCount || images.length} Photos</div>
+      <div class="album-info">
+        <h3 class="album-title">${escHtml(ev.title)}</h3>
+        <div class="album-meta">
+          <span style="font-weight:700; color:var(--gold);">${year}</span> &bull; <span>${escHtml(cat)}</span>
+        </div>
       </div>
-      <span style="position:absolute; top:10px; right:10px; background: rgba(0,0,0,0.8); color: #fff; padding: 4px 8px; font-size: 0.75rem; border-radius: 6px; font-weight: 700; z-index:2; border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(4px);">${year}</span>
     `;
   }
 
@@ -88,6 +68,23 @@
     currentEvent = ev;
     currentImageIndex = index || 0;
     
+    if (elThumbnails) {
+      elThumbnails.innerHTML = '';
+      currentEvent.images.forEach(function(img, idx) {
+        var tSrc = `assets/images/gallery/${currentEvent.slug}/${img}`;
+        var tImg = document.createElement('img');
+        tImg.className = 'viewer-thumbnail';
+        tImg.src = tSrc;
+        tImg.loading = 'lazy';
+        tImg.addEventListener('click', function(e) {
+          e.stopPropagation();
+          currentImageIndex = idx;
+          updateLightboxImage();
+        });
+        elThumbnails.appendChild(tImg);
+      });
+    }
+
     updateLightboxImage();
     
     elModal.setAttribute('aria-hidden', 'false');
@@ -105,6 +102,24 @@
     
     elModalPrev.style.display = currentEvent.images.length > 1 ? 'flex' : 'none';
     elModalNext.style.display = currentEvent.images.length > 1 ? 'flex' : 'none';
+
+    if (elThumbnails) {
+      Array.from(elThumbnails.children).forEach(function(child, idx) {
+        if (idx === currentImageIndex) {
+          child.classList.add('active');
+          child.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } else {
+          child.classList.remove('active');
+        }
+      });
+    }
+
+    if (currentEvent.images.length > 1) {
+      var nextIdx = (currentImageIndex + 1) % currentEvent.images.length;
+      var prevIdx = (currentImageIndex - 1 + currentEvent.images.length) % currentEvent.images.length;
+      new Image().src = `assets/images/gallery/${currentEvent.slug}/${currentEvent.images[nextIdx]}`;
+      new Image().src = `assets/images/gallery/${currentEvent.slug}/${currentEvent.images[prevIdx]}`;
+    }
   }
 
   function nextImage() {
@@ -169,8 +184,8 @@
       
       grouped[y].forEach(function(ev) {
         var art = document.createElement('div');
-        art.className = 'album-collage reveal';
-        art.innerHTML = createCollageHtml(ev);
+        art.className = 'album-card reveal';
+        art.innerHTML = createCardHtml(ev);
         
         art.addEventListener('click', function() { openLightbox(ev.id, 0); });
         grid.appendChild(art);
@@ -251,8 +266,23 @@
   if (elModalClose) elModalClose.addEventListener('click', closeLightbox);
   if (elModal) {
     elModal.addEventListener('click', function (e) {
-      if (e.target === elModal || e.target.classList.contains('modal-overlay')) closeLightbox();
+      if (e.target === elModal) closeLightbox();
     });
+  }
+  
+  if (elViewerContainer) {
+    var touchStartX = 0;
+    var touchEndX = 0;
+
+    elViewerContainer.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    elViewerContainer.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].screenX;
+      if (touchEndX < touchStartX - 50) nextImage();
+      if (touchEndX > touchStartX + 50) prevImage();
+    }, { passive: true });
   }
   
   if (elModalPrev) elModalPrev.addEventListener('click', prevImage);
@@ -269,6 +299,20 @@
   if (elSearch) elSearch.addEventListener('input', applyFiltersDebounced);
   if (elYear) elYear.addEventListener('change', applyFilters);
   if (elCategory) elCategory.addEventListener('change', applyFilters);
+
+  var elScrollTop = document.getElementById('scroll-to-top');
+  if (elScrollTop) {
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 300) {
+        elScrollTop.classList.add('show');
+      } else {
+        elScrollTop.classList.remove('show');
+      }
+    });
+    elScrollTop.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 
   fetchGalleryData();
 
