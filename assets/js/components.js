@@ -13,7 +13,6 @@
       <div class="brand-mark" aria-hidden="true">AH</div>
       <div class="brand-text">
         <span class="brand-name">Amir Hashmi</span>
-        <span class="brand-sub">Official Portfolio</span>
       </div>
     </a>
 
@@ -65,7 +64,6 @@
           <div class="brand-mark">AH</div>
           <div class="brand-text">
             <span class="brand-name">Amir Hashmi</span>
-            <span class="brand-sub">Official Portfolio</span>
           </div>
         </a>
         <p class="footer-desc">National Award-winning filmmaker, singer, author, and founder of the Bolti Nadi river revival movement.</p>
