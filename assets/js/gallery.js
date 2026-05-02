@@ -9,6 +9,7 @@
   var currentImageIndex = 0;
 
   var elAllContainer = document.getElementById('all-gallery-container');
+  var elFeaturedContainer = document.getElementById('featured-gallery-container');
   var elEmpty = document.getElementById('gallery-empty');
   var elSearch = document.getElementById('gallery-search');
   var elYear = document.getElementById('gallery-year');
@@ -59,6 +60,27 @@
         </div>
       </div>
     `;
+  }
+
+  function renderFeaturedEvents() {
+    if (!elFeaturedContainer) return;
+    elFeaturedContainer.innerHTML = '';
+    
+    var featured = [];
+    var searchKeys = ["Johar Gandhi", "Youth Festival with IAS OP Chaudhary", "Bemetara Annual Day"];
+    
+    searchKeys.forEach(function(key) {
+      var ev = allEvents.find(function(e) { return e.title && e.title.includes(key); });
+      if (ev) featured.push(ev);
+    });
+    
+    featured.forEach(function(ev) {
+      var art = document.createElement('div');
+      art.className = 'album-card reveal';
+      art.innerHTML = createCardHtml(ev);
+      art.addEventListener('click', function() { openLightbox(ev.id, 0); });
+      elFeaturedContainer.appendChild(art);
+    });
   }
 
   function openLightbox(eventId, index) {
@@ -249,6 +271,7 @@
         
         if (elSkelAll) elSkelAll.hidden = true;
         
+        renderFeaturedEvents();
         fillFilters();
         applyFilters();
       })
