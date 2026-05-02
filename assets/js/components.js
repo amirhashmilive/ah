@@ -2,6 +2,7 @@
 (function () {
   'use strict';
 
+  const GALLERY = 'gallery.html';
   const BOOK = 'book-now.html';
 
   const HEADER = `
@@ -23,13 +24,11 @@
       <div class="nav-item transition-all"><a href="initiative.html" class="nav-link">Initiative</a></div>
       <div class="nav-item"><a href="chronicle.html" class="nav-link">Chronicle</a></div>
       <div class="nav-item"><a href="news.html" class="nav-link">News</a></div>
+      <div class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></div>
     </nav>
 
     <div class="header-actions">
-      <a href="${BOOK}" class="btn-submit desktop-only" id="nav-submit-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-        Book Now
-      </a>
+      <!-- Removed Book Now button to keep navigation array consistent -->
       <button class="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false">
         <span></span>
         <span></span>
@@ -50,7 +49,7 @@
       <li><a href="initiative.html">Initiative</a></li>
       <li><a href="chronicle.html">Chronicle</a></li>
       <li><a href="news.html">News</a></li>
-      <li style="margin-top: 30px;"><a href="${BOOK}" class="submit-btn">Book Now</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
     </ul>
   </nav>
 </header>`;

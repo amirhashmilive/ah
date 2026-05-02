@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Primary SEO -->
+  <title>Amir Hashmi | Gallery – Event Photos & Appearances</title>
+  <meta name="description" content="Explore the official photo gallery of Amir Hashmi. Featuring events, concerts, book launches, Bolti Nadi initiatives, and National Award ceremonies.">
+  <meta name="keywords" content="Amir Hashmi photos, gallery, events, concert images, Bolti Nadi photos, Johar Gandhi launch, Tiranga rally, Chhattisgarh">
+  <meta name="author" content="Amir Hashmi">
+  <meta name="robots" content="index, follow">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://amirhashmi.com/gallery.html">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <meta name="theme-color" content="#2563EB">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="progress-bar"></div>
+<div id="site-header-inject"></div>
+
+<!-- ═══════════════════════════════════════════════════════
+     HERO SECTION
+═══════════════════════════════════════════════════════ -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-inner reveal">
+      <div class="hero-badge">Photo Archive</div>
+      <h1 class="page-title">Gallery &amp; Events</h1>
+      <p class="page-desc">A visual journey through concerts, public initiatives, youth workshops, and key milestones.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════
+     FEATURED EVENTS
+═══════════════════════════════════════════════════════ -->
+<section class="section" style="background:var(--bg-2); padding-bottom: 20px;">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Featured Highlights</h2>
+      <p class="section-subtitle">Moments that shaped the journey.</p>
+    </div>
+    
+    <div id="gallery-skeleton-featured" class="grid-3" aria-hidden="true" style="margin-bottom:40px;">
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+
+    <div class="grid-3 reveal" id="featured-gallery-grid" role="list"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════
+     ALL EVENTS GALLERY
+═══════════════════════════════════════════════════════ -->
+<section class="section" style="background:var(--bg); padding-top: 40px;">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Complete Archive</h2>
+    </div>
+
+    <!-- Filters -->
+    <div class="gallery-filters reveal">
+      <div class="search-bar" style="max-width:400px; width:100%;">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" class="search-input" id="gallery-search" placeholder="Search events..." aria-label="Search events">
+      </div>
+      <select id="gallery-year" class="filter-select" aria-label="Filter by year">
+        <option value="">All years</option>
+      </select>
+    </div>
+
+    <div id="gallery-skeleton-all" class="grid-3" aria-hidden="true" style="margin-top:24px;">
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+
+    <div id="gallery-empty" class="empty-state" hidden>
+      No events found matching your criteria.
+    </div>
+
+    <div class="grid-3 reveal" id="all-gallery-grid" role="list" style="margin-top:24px;"></div>
+    
+    <div id="gallery-pagination" class="reveal" style="margin-top: 40px;"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════
+     LIGHTBOX MODAL
+═══════════════════════════════════════════════════════ -->
+<div id="gallery-modal" class="modal gallery-modal" aria-hidden="true" role="dialog" aria-labelledby="gallery-modal-title">
+  <div class="modal-overlay" tabindex="-1"></div>
+  <div class="modal-content modal-lg">
+    <button class="modal-close" id="gallery-modal-close" aria-label="Close modal">&times;</button>
+    <div class="modal-header" style="border-bottom: 1px solid var(--border); padding-bottom: 15px; margin-bottom: 20px;">
+      <h2 id="gallery-modal-title" style="font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 5px;">Event Title</h2>
+      <div id="gallery-modal-meta" style="font-size: 0.85rem; color: var(--text-3);">Date &bull; Category</div>
+    </div>
+    
+    <div class="lightbox-container" style="position: relative; text-align: center;">
+      <img id="lightbox-img" src="" alt="Event Image" style="max-width: 100%; max-height: 65vh; border-radius: var(--r-md); object-fit: contain; margin: 0 auto;">
+      
+      <button id="lightbox-prev" class="modal-nav prev" aria-label="Previous image">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button id="lightbox-next" class="modal-nav next" aria-label="Next image">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+    
+    <div id="lightbox-counter" style="text-align: center; margin-top: 15px; font-size: 0.9rem; color: var(--text-3); font-family: var(--font-mono);">
+      1 / 10
+    </div>
+  </div>
+</div>
+
+<div id="site-footer-inject"></div>
+
+<!-- Scripts -->
+<script src="assets/js/components.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/gallery.js"></script>
+
+</body>
+</html>
