@@ -67,14 +67,6 @@
           </div>
         </a>
         <p class="footer-desc">National Award-winning filmmaker, singer, author, and founder of the Bolti Nadi river revival movement.</p>
-        <div style="margin-top:20px;">
-          <div style="font-size:0.82rem;font-weight:700;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">
-            Location
-          </div>
-          <div style="font-size:0.82rem;color:rgba(255,255,255,0.7);line-height:1.7;">
-            Chhattisgarh, India
-          </div>
-        </div>
         <div style="margin-top:16px;">
           <div style="font-size:0.72rem;font-weight:700;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Booking</div>
           <div style="font-size:0.82rem;color:rgba(255,255,255,0.7);line-height:1.7;">
