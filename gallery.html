@@ -94,6 +94,12 @@
     .year-section { margin-bottom: 56px; }
     .year-header { font-family: var(--font-serif); font-size: 2rem; color: var(--gold); border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 24px; }
     
+    .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    @media (max-width: 992px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 768px) { .gallery-grid { grid-template-columns: 1fr; } }
+    .featured-album { grid-column: span 2; }
+    @media (max-width: 768px) { .featured-album { grid-column: span 1; } }
+    
     .news-toolbar {
       display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px; align-items: flex-end;
     }
@@ -284,7 +290,7 @@
     <div class="section-header reveal">
       <h2 class="section-title">Featured Albums</h2>
     </div>
-    <div id="featured-gallery-container" class="grid-3" role="list"></div>
+    <div id="featured-gallery-container" class="gallery-grid" role="list"></div>
   </div>
 </section>
 
@@ -321,7 +327,7 @@
       </div>
     </div>
 
-    <div id="gallery-skeleton-all" class="grid-3" aria-hidden="true" style="margin-top:24px;">
+    <div id="gallery-skeleton-all" class="gallery-grid" aria-hidden="true" style="margin-top:24px;">
       <div class="skeleton-card"></div>
       <div class="skeleton-card"></div>
       <div class="skeleton-card"></div>

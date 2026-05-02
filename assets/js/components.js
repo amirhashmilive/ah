@@ -22,9 +22,9 @@
       <div class="nav-item"><a href="music.html" class="nav-link">Music</a></div>
       <div class="nav-item"><a href="books.html" class="nav-link">Books</a></div>
       <div class="nav-item transition-all"><a href="initiative.html" class="nav-link">Initiative</a></div>
+      <div class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></div>
       <div class="nav-item"><a href="chronicle.html" class="nav-link">Chronicle</a></div>
       <div class="nav-item"><a href="news.html" class="nav-link">News</a></div>
-      <div class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></div>
     </nav>
 
     <div class="header-actions">
@@ -47,9 +47,9 @@
       <li><a href="music.html">Music</a></li>
       <li><a href="books.html">Books</a></li>
       <li><a href="initiative.html">Initiative</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
       <li><a href="chronicle.html">Chronicle</a></li>
       <li><a href="news.html">News</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
     </ul>
   </nav>
 </header>`;
@@ -113,6 +113,7 @@
           <a href="music.html">Music</a>
           <a href="books.html">Books</a>
           <a href="initiative.html">Initiative</a>
+          <a href="gallery.html">Gallery</a>
           <a href="chronicle.html">Chronicle</a>
           <a href="news.html">News</a>
         </nav>
