@@ -30,12 +30,120 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
-  
-  
   <link rel="stylesheet" href="assets/css/style.css">
   <meta name="theme-color" content="#2563EB">
+  
+  <style>
+    /* Specific styles for News Page */
+    .news-section-title {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--gold);
+      margin-bottom: 30px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .featured-card {
+      background: linear-gradient(135deg, var(--bg-2) 0%, rgba(37,99,235,0.05) 100%);
+      border: 1px solid var(--blue);
+      border-radius: var(--r-xl);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      height: 100%;
+    }
+    .featured-badge {
+      align-self: flex-start;
+      background: var(--blue);
+      color: #fff;
+      padding: 4px 10px;
+      border-radius: var(--r);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .rss-card {
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: var(--r-xl);
+      padding: 20px;
+      transition: var(--t);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .rss-card:hover {
+      border-color: var(--blue);
+      transform: translateY(-2px);
+    }
+    .rss-source {
+      font-size: 0.75rem;
+      color: var(--text-3);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .rss-title {
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-1);
+      line-height: 1.4;
+      text-decoration: none;
+    }
+    .rss-title:hover {
+      color: var(--blue);
+    }
+    .rss-date {
+      font-size: 0.8rem;
+      color: var(--text-4);
+      margin-top: auto;
+      padding-top: 10px;
+    }
+    .news-toolbar {
+      display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px; align-items: flex-end;
+    }
+    .news-toolbar .search-wrap { flex: 1 1 260px; }
+    .news-toolbar .form-select { min-width: 170px; }
+    
+    .news-card-date {
+      font-size: 0.82rem; font-weight: 600; color: var(--amber);
+      display: block; margin-bottom: 4px;
+    }
+    .news-card-img {
+      width: 100%; aspect-ratio: 16/10; object-fit: cover;
+      border-radius: var(--r); border: 1px solid var(--border); display: block;
+    }
+    
+    /* Bolti Nadi interlink badge */
+    .bolti-nadi-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(16,185,129,0.1);
+      color: var(--emerald);
+      border: 1px solid rgba(16,185,129,0.3);
+      padding: 6px 12px;
+      border-radius: var(--r-full);
+      font-size: 0.75rem;
+      font-weight: 700;
+      margin-top: 12px;
+      text-decoration: none;
+      transition: var(--t);
+    }
+    .bolti-nadi-badge:hover {
+      background: var(--emerald);
+      color: #fff;
+    }
+    
+    #news-empty {
+      text-align: center; padding: 48px 20px; color: var(--text-3); font-size: 1.05rem;
+    }
+    #news-count { font-size: 0.9rem; color: var(--text-3); margin-bottom: 20px; font-weight: 600; }
+  </style>
 </head>
 <body>
 <div id="progress-bar"></div>
@@ -49,29 +157,127 @@
         <span class="breadcrumb-sep">&gt;</span>
         <span aria-current="page">News</span>
       </nav>
-      <h1 class="page-title">News</h1>
-      <p class="page-subtitle">Press, appearances, and announcements — two-column layout coming soon.</p>
+      <h1 class="page-title">Press &amp; News</h1>
+      <p class="page-subtitle">Latest updates, press coverage, and archives spanning Amir Hashmi's public work, films, and initiatives.</p>
     </div>
   </section>
 
+  <!-- Section 1: Featured News (Manual) -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <h2 class="news-section-title reveal">Featured Announcements</h2>
+      <div class="grid-3 reveal">
+        <!-- National Award -->
+        <article class="featured-card">
+          <div class="featured-badge">National Award</div>
+          <h3 class="rss-title">Amir Hashmi Receives National Award for 'Mirror of Clean India'</h3>
+          <p style="font-size: 0.9rem; color: var(--text-3); line-height: 1.6;">
+            Honored by the Government of India for cinematic excellence and impactful storytelling focusing on civic responsibility.
+          </p>
+          <div class="rss-date">Official Update</div>
+        </article>
+
+        <!-- World Record -->
+        <article class="featured-card">
+          <div class="featured-badge">World Record</div>
+          <h3 class="rss-title">Meri Jaan Tiranga: A World Record Flag Rally</h3>
+          <p style="font-size: 0.9rem; color: var(--text-3); line-height: 1.6;">
+            A historic tricolor rally mobilizing thousands of youth, marking a significant milestone in national pride and community spirit.
+          </p>
+          <div class="rss-date">Event Milestone</div>
+        </article>
+
+        <!-- Bolti Nadi -->
+        <article class="featured-card">
+          <div class="featured-badge">Initiative</div>
+          <h3 class="rss-title">Bolti Nadi: Reviving the Sakri River</h3>
+          <p style="font-size: 0.9rem; color: var(--text-3); line-height: 1.6;">
+            A 90km walk from origin to confluence, sparking a grassroots environmental movement to restore Chhattisgarh's lifeline.
+          </p>
+          <a href="initiative.html" class="bolti-nadi-badge" style="align-self: flex-start;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            Explore Bolti Nadi
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Latest News (RSS) -->
+  <section class="section" style="background: var(--bg-2);">
+    <div class="container">
+      <h2 class="news-section-title reveal" style="border-bottom-color: rgba(255,255,255,0.05);">Latest in the Press</h2>
+      <div id="rss-loading" style="text-align: center; padding: 40px; color: var(--text-3);">
+        Fetching latest updates...
+      </div>
+      <div id="rss-feed-grid" class="grid-3" style="margin-bottom: 20px;">
+        <!-- Filled by JS -->
+      </div>
+      <div id="rss-error" hidden style="color: var(--amber); text-align: center; padding: 20px;">
+        Unable to load live RSS feeds at the moment.
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: News Archive -->
   <section class="section">
     <div class="container">
-      <div class="grid-2 reveal">
-        <div class="card card-body">
-          <h3 style="font-family:var(--font-heading);margin-bottom:8px;">Featured</h3>
-          <p style="color:var(--text-3);">Reserved for lead stories and major announcements.</p>
+      <h2 class="news-section-title reveal">News &amp; Media Archive</h2>
+      
+      <div class="news-toolbar reveal">
+        <div class="search-wrap">
+          <label class="form-label" for="news-search">Search News</label>
+          <input type="search" id="news-search" class="search-input" placeholder="Search (English or Hindi)…" autocomplete="off">
         </div>
-        <div class="card card-body">
-          <h3 style="font-family:var(--font-heading);margin-bottom:8px;">Updates</h3>
-          <p style="color:var(--text-3);">Reserved for shorter updates and media clips.</p>
+        <div>
+          <label class="form-label" for="news-year">Year</label>
+          <select id="news-year" class="form-select" aria-label="Filter by year">
+            <option value="">All years</option>
+          </select>
+        </div>
+        <div>
+          <label class="form-label" for="news-cat">Category</label>
+          <select id="news-cat" class="form-select" aria-label="Filter by category">
+            <option value="">All categories</option>
+          </select>
         </div>
       </div>
+
+      <p id="news-count" class="reveal" aria-live="polite"></p>
+
+      <div id="news-skeleton" class="chronicle-skeleton" hidden>
+        <div class="skeleton-card" aria-hidden="true"></div>
+        <div class="skeleton-card" aria-hidden="true"></div>
+        <div class="skeleton-card" aria-hidden="true"></div>
+      </div>
+
+      <div id="news-archive-grid" class="grid-3"></div>
+      <p id="news-empty" hidden>No news items found.</p>
+      <nav id="news-pagination" class="chronicle-pagination" aria-label="Pagination"></nav>
     </div>
   </section>
 </main>
 
+<!-- Modal for Archive Content -->
+<div id="chronicle-modal" class="chronicle-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="News post">
+  <div class="chronicle-modal-panel">
+    <div class="chronicle-modal-header">
+      <div>
+        <h2 id="chronicle-modal-title" class="chronicle-modal-title"></h2>
+        <p id="chronicle-modal-meta" class="chronicle-modal-meta"></p>
+        <div id="chronicle-modal-badges" class="chronicle-badges"></div>
+      </div>
+      <button type="button" class="chronicle-modal-close" id="chronicle-modal-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="chronicle-modal-body">
+      <div id="chronicle-modal-body" class="post-content"></div>
+    </div>
+  </div>
+</div>
+
 <div id="site-footer-inject"></div>
 <script src="assets/js/components.js"></script>
 <script src="assets/js/core.js"></script>
+<script src="assets/js/news.js"></script>
 </body>
 </html>
