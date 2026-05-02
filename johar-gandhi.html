@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Johar Gandhi - Amir Hashmi</title>
+  
+  <!-- SEO / Meta -->
+  <meta name="description" content="Johar Gandhi: A Research Publication on Tribal and Women Freedom Fighters of Chhattisgarh by Amir Hashmi.">
+  <meta name="robots" content="noindex, nofollow"> <!-- Maybe index is fine, but to be safe -->
+  
+  <link rel="stylesheet" href="jg-assets/jg-styles.css">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Georgia&family=Times+New+Roman&display=swap" rel="stylesheet">
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+
+  <!-- CAPTCHA Overlay -->
+  <div id="jg-captcha-overlay">
+    <div class="jg-captcha-box">
+      <h2>Security Check</h2>
+      <p>To access this protected document, please solve the following math problem:</p>
+      <p id="jg-captcha-question" style="font-size:1.5rem; font-weight:bold; margin: 1rem 0;"></p>
+      <input type="number" id="jg-captcha-input" placeholder="Your answer" />
+      <div id="jg-captcha-error">Incorrect answer. Please try again.</div>
+      <button id="jg-captcha-submit" class="jg-btn">Verify &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Reading Progress Bar -->
+  <div class="jg-progress-container">
+    <div class="jg-progress-bar" id="jg-progress-bar"></div>
+  </div>
+
+  <div class="jg-container">
+    <header class="jg-header">
+      <h1>Johar Gandhi</h1>
+      <p class="jg-subtitle">A Research Publication on Tribal and Women Freedom Fighters of Chhattisgarh</p>
+      <div class="jg-breadcrumb"><a href="index.html" class="jg-home-link">Home</a> / Johar Gandhi</div>
+    </header>
+
+    <div class="jg-main-grid">
+      <!-- LEFT SIDEBAR: Chapter Navigation -->
+      <aside class="jg-sidebar-left">
+        <h3>Chapters</h3>
+        <ul id="jg-chapter-list"></ul>
+        <div class="jg-reading-progress">Reading progress: <span id="jg-progress">0</span>%</div>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="jg-content" id="jg-main-content">
+        <!-- Content injected via JS -->
+      </main>
+
+      <!-- RIGHT SIDEBAR: Section Navigation -->
+      <aside class="jg-sidebar-right">
+        <h3>On this page</h3>
+        <ul id="jg-section-nav"></ul>
+      </aside>
+    </div>
+
+    <section style="background-color: var(--jg-sidebar-bg); border: 1px solid var(--jg-border); border-radius: 4px; padding: 2.5rem; margin-top: 4rem; box-shadow: 2px 2px 8px rgba(0,0,0,0.05);">
+      <h2 style="font-size: 1.8rem; text-align: center; border-bottom: 1px dashed var(--jg-border); padding-bottom: 1rem; margin-top: 0;">Copyright &amp; Registration Information</h2>
+      <div style="display: grid; grid-template-columns: 1fr; gap: 0.5rem; margin-top: 1.5rem; font-size: 0.95rem;">
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Registration Number</div>
+          <div style="flex: 1;">L-108073/2021</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Diary Number</div>
+          <div style="flex: 1;">20687/2021-CO/L</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Date of Application</div>
+          <div style="flex: 1;">28/08/2021</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Applicant</div>
+          <div style="flex: 1;">SAYED AMIR MUSTAFA HASHMI</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Address</div>
+          <div style="flex: 1;">SR MIG 103, HOUSING BOARD HATKESHAR, DHAMTARI, CHHATTISGARH-493773</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Nationality</div>
+          <div style="flex: 1;">INDIAN</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Nature of Interest</div>
+          <div style="flex: 1;">AUTHOR</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Class of Work</div>
+          <div style="flex: 1;">LITERARY/DRAMATIC WORK</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Title of Work</div>
+          <div style="flex: 1;">JOHAR GANDHI</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Language</div>
+          <div style="flex: 1;">ENGLISH</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Author</div>
+          <div style="flex: 1;">SAYED AMIR MUSTAFA HASHMI</div>
+        </div>
+        <div style="display: flex; border-bottom: 1px solid rgba(212, 197, 169, 0.5); padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Publication Status</div>
+          <div style="flex: 1;">UNPUBLISHED</div>
+        </div>
+        <div style="display: flex; padding: 0.5rem 0;">
+          <div style="flex: 0 0 35%; font-weight: bold; color: var(--jg-accent);">Deputy Registrar of Copyrights</div>
+          <div style="flex: 1;">DEPUTY REGISTRAR OF COPYRIGHTS</div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="assets/book/johar-gandhi/Johar-Gandhi_Copyright.pdf" target="_blank" class="jg-btn">View Official Certificate</a>
+      </div>
+    </section>
+
+    <footer class="jg-footer">
+      <p>&copy; 2022 Amir Hashmi (Sayed Amir Mustafa Hashmi). All rights reserved. | Copyright Registration No. L-108073/2021 | Unpublished Work</p>
+    </footer>
+  </div>
+
+  <!-- Floating Context Map Button -->
+  <button id="jg-context-map-btn" class="jg-context-btn">🗺️ Context Map</button>
+  
+  <!-- Context Modal -->
+  <div id="jg-context-modal" class="jg-modal">
+    <div class="jg-modal-content">
+      <span class="jg-modal-close">&times;</span>
+      <h3>Related Content</h3>
+      <div id="jg-context-results"></div>
+    </div>
+  </div>
+
+  <!-- Enhanced Repeating Watermark -->
+  <div class="jg-watermark-container">
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+    <div class="jg-watermark">JOHAR GANDHI &copy; L-108073/2021</div>
+  </div>
+
+  <script src="jg-assets/jg-utils.js"></script>
+  <script src="jg-assets/jg-anti-copy.js"></script>
+  <script src="jg-assets/jg-sidebar.js"></script>
+</body>
+</html>
