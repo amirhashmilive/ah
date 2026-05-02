@@ -1,6 +1,6 @@
 /* ============================================================
-   IJMEER — core.js  (v3 — Premium Edition)
-   Navigation, dark mode, scroll effects, reveal animations
+   core.js
+   Navigation, scroll effects, reveal animations
    ============================================================ */
 
 (function () {
@@ -24,11 +24,11 @@
   }
 
   // ── Scroll-to-top button ──────────────────────────────────
-  const scrollTopBtn = document.getElementById('scroll-top');
+  const scrollTopBtn = document.getElementById('backToTop');
   function updateScrollTop() {
     if (!scrollTopBtn) return;
-    if (window.scrollY > 500) scrollTopBtn.classList.add('visible');
-    else scrollTopBtn.classList.remove('visible');
+    if (window.scrollY > 500) scrollTopBtn.classList.add('show');
+    else scrollTopBtn.classList.remove('show');
   }
   if (scrollTopBtn) {
     scrollTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));

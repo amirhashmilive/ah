@@ -171,7 +171,10 @@
 
     elGrid.innerHTML = '';
     if (total === 0) {
-      if (elEmpty) elEmpty.hidden = false;
+      if (elEmpty) {
+        elEmpty.hidden = false;
+        elEmpty.textContent = "No posts found.";
+      }
       if (elPagination) elPagination.innerHTML = '';
       return;
     }
@@ -263,6 +266,12 @@
   function showSkeleton(show) {
     if (elSkeleton) elSkeleton.hidden = !show;
     if (elGrid) elGrid.style.opacity = show ? '0.5' : '1';
+    if (show && elEmpty) {
+      elEmpty.hidden = false;
+      elEmpty.textContent = "Loading posts...";
+    } else if (!show && elEmpty) {
+      elEmpty.hidden = true;
+    }
   }
 
   var cacheKey = 'chronicle_posts_json_v1';

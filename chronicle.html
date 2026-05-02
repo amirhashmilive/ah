@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- Primary SEO -->
+<title>Amir Hashmi | Chronicle – National Award-Winning Filmmaker | Author | Philanthropist</title>
+<meta name="description" content="Read the personal chronicle, blog posts, and articles by Amir Hashmi spanning over a decade.">
+<meta name="keywords" content="Amir Hashmi, National Award filmmaker, Bolti Nadi, Johar Gandhi, Hindustani classical singer, Chhattisgarh">
+<meta name="author" content="Amir Hashmi">
+<meta name="robots" content="index, follow">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://amirhashmi.com/chronicle.html">
+
+<!-- Open Graph (Facebook, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Amir Hashmi | Chronicle">
+<meta property="og:description" content="Read the personal chronicle, blog posts, and articles by Amir Hashmi spanning over a decade.">
+<meta property="og:url" content="https://amirhashmi.com/chronicle.html">
+<meta property="og:image" content="https://amirhashmi.com/assets/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@amirhashmilive">
+<meta name="twitter:title" content="Amir Hashmi | Chronicle">
+<meta name="twitter:description" content="Read the personal chronicle, blog posts, and articles by Amir Hashmi spanning over a decade.">
+<meta name="twitter:image" content="https://amirhashmi.com/assets/images/og-image.jpg">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chronicle | Amir Hashmi</title>
-  <meta name="description" content="Blog and archive — articles, films, poetry, and commentary from Amir Hashmi. Search, filter by year or category, and read full posts.">
-  <meta name="keywords" content="Amir Hashmi, blog, Chronicle, Bolti Nadi, Johar Gandhi, filmmaker">
-  <link rel="canonical" href="https://amirhashmi.com/chronicle.html">
+  
+  
+  
+  
   <link rel="stylesheet" href="assets/css/style.css">
   <meta name="theme-color" content="#2563EB">
   <style>
@@ -26,16 +53,6 @@
     .chronicle-skeleton {
       display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;
       margin-bottom: 24px;
-    }
-    .chronicle-skeleton-card {
-      height: 320px; border-radius: var(--r-xl); border: 1px solid var(--border);
-      background: linear-gradient(90deg, var(--bg-2) 25%, var(--border) 37%, var(--bg-2) 63%);
-      background-size: 400% 100%;
-      animation: chronicle-shimmer 1.2s ease-in-out infinite;
-    }
-    @keyframes chronicle-shimmer {
-      0% { background-position: 100% 0; }
-      100% { background-position: 0 0; }
     }
     #chronicle-empty {
       text-align: center; padding: 48px 20px; color: var(--text-3); font-size: 1.05rem;
@@ -146,9 +163,9 @@
       <p id="chronicle-count" class="reveal" aria-live="polite"></p>
 
       <div id="chronicle-skeleton" class="chronicle-skeleton" hidden>
-        <div class="chronicle-skeleton-card" aria-hidden="true"></div>
-        <div class="chronicle-skeleton-card" aria-hidden="true"></div>
-        <div class="chronicle-skeleton-card" aria-hidden="true"></div>
+        <div class="skeleton-card" aria-hidden="true"></div>
+        <div class="skeleton-card" aria-hidden="true"></div>
+        <div class="skeleton-card" aria-hidden="true"></div>
       </div>
 
       <div id="chronicle-grid" class="grid-3"></div>

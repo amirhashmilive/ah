@@ -1,4 +1,4 @@
-/* Amir Hashmi — components.js (structure matches original IJMEER inject) */
+/* Amir Hashmi — components.js (structure matches original  inject) */
 (function () {
   'use strict';
 
@@ -155,9 +155,7 @@
   </div>
 </footer>
 <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="false"></div>
-<button id="scroll-top" aria-label="Scroll to top of page" title="Back to top">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
-</button>`;
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>`;
 
   function inject(id, html, position = 'before') {
     const placeholder = document.getElementById(id);

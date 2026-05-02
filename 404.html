@@ -1,93 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page Not Found — Amir Hashmi</title>
-  <meta name="robots" content="noindex, nofollow">
-  <link rel="canonical" href="https://amirhashmi.com/404.html">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <meta name="theme-color" content="#2563EB">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found | Amir Hashmi</title>
+  <meta name="robots" content="noindex, follow">
   <style>
-    .notfound-section {
-      min-height: 100vh; display: flex; align-items: center; justify-content: center;
-      padding: calc(var(--header-h) + 36px + 40px) 0 80px;
-      background: var(--bg); position: relative; overflow: hidden;
+    /* Same design system as main site */
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0a0a2a;
+      font-family: 'Inter', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
     }
-    .notfound-section::before {
-      content: '404';
-      position: absolute; font-size: clamp(180px,30vw,320px);
-      font-family: var(--font-serif); font-weight: 900;
-      color: var(--border); opacity: 0.4; top: 50%; left: 50%;
-      transform: translate(-50%,-50%); pointer-events: none;
-      user-select: none; line-height: 1;
+    .error-container {
+      max-width: 600px;
     }
-    .notfound-content {
-      position: relative; z-index: 1; text-align: center; max-width: 600px;
-      animation: fadeInUp 0.8s ease;
+    h1 {
+      font-size: 120px;
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      color: #d4af37;
     }
-    .notfound-icon {
-      width: 100px; height: 100px; border-radius: 50%;
-      background: rgba(212,175,55,0.12); border: 2px solid rgba(212,175,55,0.25);
-      display: flex; align-items: center; justify-content: center;
-      margin: 0 auto 32px; animation: float 6s ease-in-out infinite;
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
     }
-    .notfound-icon svg { width: 48px; height: 48px; color: var(--gold); }
-    .notfound-title {
-      font-family: var(--font-serif); font-size: clamp(1.8rem,4vw,2.8rem);
-      font-weight: 800; color: var(--navy); margin-bottom: 16px;
+    p {
+      color: #ccc;
+      margin-bottom: 30px;
     }
-    .notfound-desc { font-size: 1rem; color: var(--text-3); line-height: 1.75; margin-bottom: 36px; }
-    .notfound-links { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
-    .quick-nav { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 12px; margin-top: 52px; max-width: 700px; }
-    .quick-nav-link {
-      display: flex; flex-direction: column; align-items: center; gap: 8px;
-      padding: 20px; background: var(--bg-2); border: 1px solid var(--border);
-      border-radius: var(--r-lg); text-decoration: none; color: var(--text-2);
-      font-size: 0.85rem; font-weight: 600; transition: var(--t); text-align: center;
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #d4af37;
+      color: #0a0a2a;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      margin: 0 10px;
     }
-    .quick-nav-link:hover { border-color: var(--gold); color: var(--gold); background: rgba(212,175,55,0.06); transform: translateY(-3px); }
-    .quick-nav-link svg { width: 22px; height: 22px; }
+    .btn-outline {
+      background: transparent;
+      border: 2px solid #d4af37;
+      color: #d4af37;
+    }
   </style>
 </head>
 <body>
-<div id="progress-bar"></div>
-<div id="site-header-inject"></div>
-
-<main id="main-content">
-  <section class="notfound-section" aria-labelledby="error-heading">
-    <div class="container">
-      <div class="notfound-content">
-        <div class="notfound-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-            <line x1="11" y1="8" x2="11" y2="14"/><line x1="11" y1="16" x2="11.01" y2="16"/>
-          </svg>
-        </div>
-
-        <h1 class="notfound-title" id="error-heading">Page Not Found</h1>
-        <p class="notfound-desc">
-          The page you are looking for does not exist or may have moved. Use the navigation above or try one of the links below.
-        </p>
-
-        <div class="notfound-links">
-          <a href="index.html" class="btn btn-primary btn-lg">Go to homepage</a>
-          <a href="book-now.html" class="btn btn-outline btn-lg">Book now</a>
-        </div>
-
-        <div class="quick-nav" role="navigation" aria-label="Quick navigation">
-          <a href="films.html" class="quick-nav-link">Films</a>
-          <a href="music.html" class="quick-nav-link">Music</a>
-          <a href="books.html" class="quick-nav-link">Books</a>
-          <a href="initiative.html" class="quick-nav-link">Initiatives</a>
-          <a href="news.html" class="quick-nav-link">News</a>
-        </div>
-      </div>
+  <div class="error-container">
+    <h1>404</h1>
+    <h2>Page Not Found</h2>
+    <p>Sorry, the page you are looking for does not exist or has been moved.</p>
+    <div>
+      <a href="/" class="btn">Go Home</a>
+      <a href="/chronicle.html" class="btn btn-outline">Read Chronicle</a>
     </div>
-  </section>
-</main>
-
-<div id="site-footer-inject"></div>
-<script src="assets/js/components.js"></script>
-<script src="assets/js/core.js"></script>
+  </div>
 </body>
 </html>

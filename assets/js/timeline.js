@@ -1,6 +1,6 @@
 /* ============================================================
-   IJMEER — timeline.js
-   Renders the quarterly deadline widget on the homepage
+   timeline.js
+   Renders the timeline widget on the homepage
    ============================================================ */
 (function () {
   'use strict';
@@ -67,7 +67,7 @@
 
     // Update header
     if (tlName) tlName.textContent = current.label + ' ' + year;
-    if (tlDl)   tlDl.textContent   = 'Submission deadline: ' + formatDeadline(current.deadlineMonth, current.deadlineDay);
+    if (tlDl)   tlDl.textContent   = 'Next update: ' + formatDeadline(current.deadlineMonth, current.deadlineDay);
 
     const status = getStatus(current.deadlineMonth, current.deadlineDay);
     if (tlStat) {
@@ -90,8 +90,8 @@
       card.innerHTML = `
         <div class="q-name">${q.id} — ${year}</div>
         <div class="q-dates">
-          <div>📅 Deadline: <span class="q-date-highlight">${dl}</span></div>
-          <div>📖 Publication: <span class="q-date-highlight">${pubMonth} ${pubYear}</span></div>
+          <div>📅 Date: <span class="q-date-highlight">${dl}</span></div>
+          <div>📌 Window: <span class="q-date-highlight">${pubMonth} ${pubYear}</span></div>
         </div>
         <div class="q-status ${qStatus}">${qStatus === 'open' ? 'Open' : qStatus === 'closing' ? 'Closing Soon' : 'Closed'}</div>`;
       grid.appendChild(card);
