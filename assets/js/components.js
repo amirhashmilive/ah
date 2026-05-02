@@ -138,7 +138,7 @@
         <nav class="footer-links" aria-label="Quick links">
           <a href="${BOOK}">Book now</a>
           <a href="https://www.researchgate.net/profile/Sayed-Amir-Mustafa-Hashmi" target="_blank" rel="noopener noreferrer">ResearchGate</a>
-          <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=Y22LH5kAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           <a href="https://www.imdb.com/find?q=Amir+Hashmi" target="_blank" rel="noopener noreferrer">IMDb</a>
           <a href="news.html">News</a>
           <a href="chronicle.html">Chronicle</a>
