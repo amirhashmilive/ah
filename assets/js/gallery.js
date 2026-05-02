@@ -198,6 +198,12 @@
       var grid = document.createElement('div');
       grid.className = 'gallery-grid';
       
+      grouped[y].sort(function(a, b) {
+        if (a.isFeatured && !b.isFeatured) return -1;
+        if (!a.isFeatured && b.isFeatured) return 1;
+        return 0;
+      });
+      
       grouped[y].forEach(function(ev) {
         var art = document.createElement('div');
         art.className = 'album-card reveal' + (ev.isFeatured ? ' featured-album' : '');
@@ -316,20 +322,6 @@
   if (elSearch) elSearch.addEventListener('input', applyFiltersDebounced);
   if (elYear) elYear.addEventListener('change', applyFilters);
   if (elCategory) elCategory.addEventListener('change', applyFilters);
-
-  var elScrollTop = document.getElementById('scroll-to-top');
-  if (elScrollTop) {
-    window.addEventListener('scroll', function() {
-      if (window.scrollY > 300) {
-        elScrollTop.classList.add('show');
-      } else {
-        elScrollTop.classList.remove('show');
-      }
-    });
-    elScrollTop.addEventListener('click', function() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-  }
 
   fetchGalleryData();
 
