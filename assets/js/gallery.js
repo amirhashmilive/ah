@@ -70,7 +70,7 @@
     
     featured.forEach(function(ev) {
       var art = document.createElement('div');
-      art.className = 'album-card reveal featured-album';
+      art.className = 'album-card featured-album';
       art.innerHTML = createCardHtml(ev);
       art.addEventListener('click', function() { openLightbox(ev.id, 0); });
       elFeaturedContainer.appendChild(art);
@@ -188,7 +188,7 @@
 
     years.forEach(function(y) {
       var section = document.createElement('div');
-      section.className = 'year-section reveal';
+      section.className = 'year-section';
       
       var header = document.createElement('h2');
       header.className = 'year-header';
@@ -206,7 +206,7 @@
       
       grouped[y].forEach(function(ev) {
         var art = document.createElement('div');
-        art.className = 'album-card reveal' + (ev.isFeatured ? ' featured-album' : '');
+        art.className = 'album-card' + (ev.isFeatured ? ' featured-album' : '');
         art.innerHTML = createCardHtml(ev);
         
         art.addEventListener('click', function() { openLightbox(ev.id, 0); });
@@ -217,11 +217,6 @@
       elAllContainer.appendChild(section);
     });
 
-    if (window.revealObserver) {
-      elAllContainer.querySelectorAll('.reveal').forEach(function(node) {
-        window.revealObserver.observe(node);
-      });
-    }
   }
 
   function applyFilters() {
