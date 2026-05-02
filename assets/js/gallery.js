@@ -54,17 +54,23 @@
     var year = ev.year || '';
     
     return `
-      <div class="gallery-card-img-wrap" style="position:relative; border-radius: var(--r-md); overflow: hidden; margin-bottom: 12px; cursor: pointer;">
-        <img src="${escHtml(cover)}" alt="${escHtml(ev.title)}" loading="lazy" style="width:100%; height:250px; object-fit:cover; display:block; transition: transform 0.5s ease;">
-        <span class="category-badge" style="position:absolute; top:10px; left:10px; background: rgba(15, 23, 42, 0.85); color: #fff; padding: 4px 10px; font-size: 0.7rem; border-radius: 20px; font-weight: 600; backdrop-filter: blur(4px); border: 1px solid rgba(255,255,255,0.1);">${escHtml(cat)}</span>
-        <span class="image-count" style="position:absolute; bottom:10px; right:10px; background: rgba(0,0,0,0.7); color: #fff; padding: 4px 8px; font-size: 0.75rem; border-radius: 6px; font-weight: 600; display:flex; align-items:center; gap:4px;">
+      <div class="paper-subject-tag" style="margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center;">
+        <span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="width:12px;height:12px;margin-right:4px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          ${escHtml(cat)}
+        </span>
+        <span style="font-size: 0.75rem; color: var(--text-3); font-weight: 600;">${year}</span>
+      </div>
+      <div class="gallery-card-img-wrap" style="position:relative; border-radius: var(--r-md); overflow: hidden; margin-bottom: 16px; cursor: pointer;">
+        <img src="${escHtml(cover)}" alt="${escHtml(ev.title)}" loading="lazy" style="width:100%; height:200px; object-fit:cover; display:block; transition: transform 0.5s ease;">
+        <span class="image-count" style="position:absolute; bottom:10px; right:10px; background: rgba(0,0,0,0.7); color: #fff; padding: 4px 8px; font-size: 0.75rem; border-radius: 6px; font-weight: 600; display:flex; align-items:center; gap:4px; backdrop-filter: blur(4px);">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:12px;height:12px;"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
           ${imgCount}
         </span>
       </div>
-      <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom: 6px;">
-        <h3 class="paper-title" style="margin-bottom:0; font-size: 1.1rem; cursor:pointer;">${escHtml(ev.title)}</h3>
-        <span class="year-badge" style="font-size: 0.8rem; font-weight: 700; color: var(--gold); background: rgba(212,175,55,0.1); padding: 2px 6px; border-radius: 4px;">${year}</span>
+      <h3 class="paper-title" style="margin-bottom: 8px; font-size: 1.1rem; line-height: 1.4; cursor:pointer;">${escHtml(ev.title)}</h3>
+      <div class="paper-meta" style="margin-top: auto; padding-top: 12px;">
+        <span class="btn btn-sm btn-ghost" style="margin-left:auto; cursor: pointer;">View Gallery</span>
       </div>
     `;
   }
@@ -127,7 +133,7 @@
     
     featured.forEach(function(ev) {
       var art = document.createElement('article');
-      art.className = 'gallery-card reveal';
+      art.className = 'paper-card reveal';
       art.innerHTML = createCardHtml(ev);
       
       art.addEventListener('click', function() { openLightbox(ev.id, 0); });
@@ -163,7 +169,7 @@
 
     slice.forEach(function(ev) {
       var art = document.createElement('article');
-      art.className = 'gallery-card reveal';
+      art.className = 'paper-card reveal';
       art.innerHTML = createCardHtml(ev);
       
       art.addEventListener('click', function() { openLightbox(ev.id, 0); });

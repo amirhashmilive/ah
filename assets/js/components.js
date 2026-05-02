@@ -171,6 +171,8 @@
 
   inject('site-header-inject', HEADER);
   inject('site-footer-inject', FOOTER);
+  inject('ah-header-inject', HEADER);
+  inject('ah-footer-inject', FOOTER);
 
   document.dispatchEvent(new CustomEvent('headerInjected'));
 
