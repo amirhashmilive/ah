@@ -89,17 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
           html += `<p class="jg-paragraph">${paras[i]}</p>`;
           pCount++;
 
-          // Image Placeholder after this paragraph if matches
-          const placeholders = chapter.imagePlaceholders.filter(ip => ip.position === `after_paragraph_${pCount}`);
-          placeholders.forEach(ph => {
-            html += `
-              <div class="jg-image-placeholder">
-                <span class="jg-image-path">${ph.path}</span>
-                <strong>[Add Image]</strong><br>
-                <em>Prompt: ${ph.prompt}</em>
-              </div>
-            `;
-          });
+
         }
 
         // Close any open hidden container
