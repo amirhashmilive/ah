@@ -1,0 +1,33 @@
+## POSTS SUMMARY
+- Total posts: 544
+- Date range: 2017-08-25 to 2026-04-06
+
+## CATEGORIES SUMMARY
+| Category | Post Count |
+|----------|------------|
+| Blog | 542 |
+| Amir Hashmi Ki Kalam Se | 3 |
+
+## MISSING DATA
+- Posts with empty content: 3
+- Posts with missing/placeholder featured images: 165
+- Broken image paths (file not found): 0
+
+## SAMPLE POSTS
+### First 3 (Oldest)
+- [2017-08-25] Welcome
+- [2017-11-30] अमीर हाशमी ने सदगुरू के एकल प्रजाति वृक्षारोपण को बताया पर्यावरण के लिए ख़तरनाक
+- [2017-12-10] क्या हुआ के हैरानी है
+
+### Last 3 (Newest)
+- [2026-04-06] खाद्य हथियारीकरण और वैश्विक जनसंख्या नियंत्रण की साजिश – डॉ. रीमा लेब्यू का खुलासा (2008)
+- [2026-04-04] द हाउस ऑफ रोथ्सचाइल्ड: एक फिल्म जो बन गई भविष्यवाणी - आज का डोमिनो प्रभाव और वैश्विक यथार्थ
+- [2026-04-01] हिंदू धर्म: विवादास्पद व्याख्यान का ट्रांसक्रिप्ट और आलोचनात्मक समीक्षा
+
+### Most recent in each major category
+- Amir Hashmi Ki Kalam Se: [2022-02-11] तारीफों के पुल के नीचे,मतलब की नदियाँ बहती हैं: अमीर हाशमी
+- Blog: [2026-04-06] खाद्य हथियारीकरण और वैश्विक जनसंख्या नियंत्रण की साजिश – डॉ. रीमा लेब्यू का खुलासा (2008)
+
+## STATUS
+- JSON valid: Yes
+- Ready for category cleanup: Yes
