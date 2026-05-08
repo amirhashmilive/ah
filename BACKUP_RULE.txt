@@ -1,0 +1,44 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                    MANDATORY BACKUP RULE                         ║
+║                    THIS IS NOT OPTIONAL                          ║
+╚══════════════════════════════════════════════════════════════════╝
+
+YOU MUST RUN BACKUP BEFORE ANY CHANGE TO THIS PROJECT.
+
+FAILURE TO BACKUP MAY RESULT IN PERMANENT DATA LOSS.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHEN TO RUN BACKUP:
+
+1. BEFORE ANY edit, modification, or deletion
+2. If last backup > 12 hours ago → BACKUP REQUIRED
+3. Before running ANY agent prompt that changes files
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HOW TO RUN BACKUP:
+
+Open PowerShell in project folder and run:
+   powershell -ExecutionPolicy Bypass -File .\backup.ps1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FOR AI AGENTS (Antigravity, Gemini, Opus, etc.):
+
+BEFORE executing ANY task that modifies files:
+   1. Check if backup.zip exists in ..\backup\ah\
+   2. If last backup > 12 hours old → RUN BACKUP FIRST
+   3. Then proceed with the requested task
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+THIS RULE APPLIES TO:
+- All AI Agents
+- All IDEs (VS Code, Cursor, etc.)
+- All manual edits
+- All automated scripts
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NO EXCEPTIONS. NO SKIPPING. BACKUP FIRST.

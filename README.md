@@ -91,4 +91,31 @@ https://www.meerfoundation.co.in/
 
 ---
 
+### Backup System
+
+**⚠️ MANDATORY: Run backup before any significant change (12-hour rule).**
+
+**Run backup:**
+```powershell
+.\backup.ps1 -CommitMessage "description-of-change"
+```
+
+**Storage location:**
+```
+C:\Users\hashm\Desktop\Projects\backup\ah\
+```
+
+**Filename format:** `YYYY-MM-DD_HHMM_commit-message.zip`  
+Example: `2026-05-09_0215_homepage-update.zip`
+
+**Restore:**  
+Extract the desired `.zip` file from the backup folder and copy its contents back into the project root.
+
+**12-Hour Rule:**  
+If the last backup in `backup\ah\` is older than 12 hours, run `backup.ps1` before proceeding with any edits.
+
+**For AI Agents:** Check `backup\ah\` for a zip file dated within the last 12 hours. If none exists, run `backup.ps1` first, then proceed with the requested task.
+
+---
+
 © 2025  - 
