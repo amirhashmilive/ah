@@ -1,0 +1,1433 @@
+{
+  "stats": {
+    "root": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 0,
+      "total": 0
+    },
+    "blog": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 0,
+      "total": 0
+    },
+    "2014": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 0,
+      "total": 0
+    },
+    "2017": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 0,
+      "total": 0
+    },
+    "2018": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 0,
+      "total": 0
+    },
+    "2019": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 0,
+      "total": 0
+    },
+    "2020": {
+      "long_name": 1,
+      "hindi": 0,
+      "special": 0,
+      "total": 1
+    },
+    "2021": {
+      "long_name": 1,
+      "hindi": 0,
+      "special": 0,
+      "total": 1
+    },
+    "2022": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 0,
+      "total": 0
+    },
+    "2023": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 0,
+      "total": 0
+    },
+    "2024": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 0,
+      "total": 0
+    },
+    "2025": {
+      "long_name": 31,
+      "hindi": 0,
+      "special": 0,
+      "total": 31
+    },
+    "2026": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 0,
+      "total": 0
+    },
+    "gallery": {
+      "long_name": 0,
+      "hindi": 0,
+      "special": 300,
+      "total": 300
+    }
+  },
+  "files_found": 333,
+  "renamed": [
+    {
+      "old": "assets/images/blog/2020/limitcute_on_instagram__e2809c5bwatch_the_whole_video5d_are_these_situations_common_in_your_country_f09f9187_._follow_40limitcute_for_more_great_post_f09f929e_promotion_f.mp4",
+      "new": "assets/images/blog/2020/limitcute_on_instagram__e2809c5bwatch_the_who-2020.mp4"
+    },
+    {
+      "old": "assets/images/blog/2021/this-will-go-a-long-way-in-supporting-our-community-of-diverse-and-hard-working-creators.-we-feel-incredibly-lucky-to-be-in-a-community-where-the-role-of-art-and-music-is-seen-as-essenti.png",
+      "new": "assets/images/blog/2021/this-will-go-a-long-way-in-supporting-our-com-2021.png"
+    },
+    {
+      "old": "assets/images/blog/2025/an-epic-highly-detailed-panoramic-masterpiece-illustrating-the-complete-chronological-timeline-of-25-islamic-prophets-from-adam-to-muhammad-efb7ba-in-one-grand-composition.-islamic-minia.jpg",
+      "new": "assets/images/blog/2025/an-epic-highly-detailed-panoramic-masterpiece-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/an-epic-panoramic-illustration-of-the-chain-of-islamic-prophets-from-adam-to-muhammad-efb7ba-showing-a-golden-timeline-connecting-25-prophets-in-chronological-order.-islamic-miniature-ar.jpg",
+      "new": "assets/images/blog/2025/an-epic-panoramic-illustration-of-the-chain-o-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/ancient-ruined-city-near-the-dead-sea-dramatic-sky-with-fire-and-brimstone-desolate-salt-formations-symbolizing-punishment-distant-landscape-showing-destruction-and-overturned-settlement.jpg",
+      "new": "assets/images/blog/2025/ancient-ruined-city-near-the-dead-sea-dramati-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/dallc2b7e-2025-01-21-01.28.41-a-detailed-conceptual-illustration-depicting-the-idea-of-alkaline-water-as-a-lossful-deal.-the-image-shows-a-bottle-of-alkaline-water-labeled-with-h.webp",
+      "new": "assets/images/blog/2025/dallc2b7e-2025-01-21-012841-a-detailed-conceptual.webp"
+    },
+    {
+      "old": "assets/images/blog/2025/e0a498e0a4b0e0a4ace0a588e0a4a0e0a587e0a49ce0a58be0a4aee0a4bfe0a4b2e0a587e0a4b8e0a58be0a4ade0a58de0a4b0e0a4ae2ce0a4a4e0a4b2e0a4bee0a4b6e0a4b9e0a58be0a4a4e0a58be0a4b8e0a4a4e0a58de0a4afe0a4.jpg",
+      "new": "assets/images/blog/2025/e0a498e0a4b0e0a4ace0a588e0a4a0e0a587e0a49ce0a-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/file_00000000638051f78710cebadeb9f1b7_conversation_id3d67ee557d-98d4-800d-a5e5-6f2eaa58491826message_id3db32a9254-1257-4cfb-9791-960ac239601c28129.png",
+      "new": "assets/images/blog/2025/file_00000000638051f78710cebadeb9f1b7_convers-2025.png"
+    },
+    {
+      "old": "assets/images/blog/2025/grand-cosmic-illustration-showing-124000-prophets-as-stars-in-the-sky-with-25-major-prophets-shining-brightly-quran-open-with-golden-arabic-calligraphy-divine-light-connecting-heaven-and-2.jpg",
+      "new": "assets/images/blog/2025/grand-cosmic-illustration-showing-124000-prop-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/hajar-and-infant-ismail-in-desert-valley-of-mecca-zamzam-water-springing-forth-jurhum-tribe-settling-ismail-learning-arabic-rebuilding-kaaba-with-ibrahim.-desert-miracle-ancient-arabian-.jpg",
+      "new": "assets/images/blog/2025/hajar-and-infant-ismail-in-desert-valley-of-m-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/historical-illustration-showing-abdullah-ibn-sabas-conspiracy-causing-shia-sunni-division-in-early-islamic-history.-__scene_-7th-century-medina-mosque-setting-shadowy-figure-of-abdullah-.jpg",
+      "new": "assets/images/blog/2025/historical-illustration-showing-abdullah-ibn--2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-adam-as-being-created-from-clay-by-divine-hands-golden-light-garden-of-eden-with-forbidden-tree-iblis-as-shadowy-figure-whispering-adam-and-hawa-descending-to-earth-from-paradise.jpg",
+      "new": "assets/images/blog/2025/prophet-adam-as-being-created-from-clay-by-di-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-alyasa-as-continuing-ilyass-mission-healing-naaman-of-leprosy-multiplying-oil-for-widow-raising-dead-child-purifying-poisoned-water.-miracle-working-prophet-healing-ministry-prop.jpg",
+      "new": "assets/images/blog/2025/prophet-alyasa-as-continuing-ilyass-mission-h-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-ayyub-as-losing-wealth-and-health-covered-in-sores-but-still-praying-satan-whispering-temptations-wife-supporting-him-eventual-healing-and-restoration.-story-of-patience-and-fait.jpg",
+      "new": "assets/images/blog/2025/prophet-ayyub-as-losing-wealth-and-health-cov-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-dawud-as-defeating-goliath-with-sling-playing-harp-writing-psalms-building-jerusalem-softening-iron-fathering-sulaiman.-young-shepherd-to-king-transformation-musical-worship-mili.jpg",
+      "new": "assets/images/blog/2025/prophet-dawud-as-defeating-goliath-with-sling-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-harun-as-supporting-musa-as-spokesman-golden-calf-incident-with-samiri-maintaining-faith-during-crisis-first-high-priest-of-israel.-brotherly-partnership-religious-leadership-cri.jpg",
+      "new": "assets/images/blog/2025/prophet-harun-as-supporting-musa-as-spokesman-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-hud-as-preaching-to-giant-people-of-ad-tribe-in-yemen-with-massive-ancient-architecture-tall-arrogant-people-mocking-him-devastating-sandstorm-lasting-7-nights-and-8-days-destroy.jpg",
+      "new": "assets/images/blog/2025/prophet-hud-as-preaching-to-giant-people-of-a-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-ibrahim-as-breaking-idols-in-babylonian-temple-confrontation-with-king-nimrod-thrown-into-fire-that-turns-cool-and-peaceful-migration-to-canaan-building-kaaba-with-ismail.-ancien.jpg",
+      "new": "assets/images/blog/2025/prophet-ibrahim-as-breaking-idols-in-babyloni-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-idris-as-teaching-astronomy-with-ancient-celestial-maps-mathematics-with-geometric-patterns-and-sewing-techniques-to-people-writing-with-quill-on-parchment-surrounded-by-scrolls-.jpg",
+      "new": "assets/images/blog/2025/prophet-idris-as-teaching-astronomy-with-anci-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-ilyas-as-confronting-baal-worshippers-contest-with-450-priests-on-mount-carmel-fire-miracle-from-heaven-drought-period-confrontation-with-king-ahab-and-queen-jezebel.-dramatic-pr.jpg",
+      "new": "assets/images/blog/2025/prophet-ilyas-as-confronting-bal-worshippers--2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-isa-as-teaching-gospel-last-supper-with-judas-iscariot-betraying-with-kiss-crucifixion-of-look-alike-isa-being-raised-to-heaven-by-angels-christian-division-beginning.-biblical-l.jpg",
+      "new": "assets/images/blog/2025/prophet-isa-as-teaching-gospel-last-supper-wi-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-ishaq-as-continuing-ibrahims-mission-in-palestine-fathering-yaqub-establishing-israelite-lineage-12-tribes-foundation.-ancient-canaan-landscape-prophetic-continuity-abrahamic-cov.jpg",
+      "new": "assets/images/blog/2025/prophet-ishaq-as-continuing-ibrahims-mission--2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-musa-as-confronting-pharaoh-miracles-of-staff-turning-to-snake-plagues-of-egypt-parting-red-sea-receiving-torah-on-mount-sinai-40-years-in-desert.-epic-biblical-scale-ancient-egy.jpg",
+      "new": "assets/images/blog/2025/prophet-musa-as-confronting-pharaoh-miracles--2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-nuh-as-building-massive-ark-with-help-of-believers-dark-storm-clouds-gathering-animals-entering-ark-two-by-two-great-flood-waters-rising-mountain-peaks-emerging-ark-resting-on-mo.jpg",
+      "new": "assets/images/blog/2025/prophet-nuh-as-building-massive-ark-with-help-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-salih-as-with-miraculous-she-camel-emerging-from-mountain-people-of-thamud-in-rock-cut-architecture-qudar-bin-salif-unethical-behave-with-the-camel-earthquake-and-lightning-destr.jpg",
+      "new": "assets/images/blog/2025/prophet-salih-as-with-miraculous-she-camel-em-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-shuaib-as-teaching-honest-business-practices-in-marketplace-preventing-fraud-in-weights-and-measures-giving-refuge-to-musa-marriage-of-musa-to-his-daughter.-ancient-marketplace-s.jpg",
+      "new": "assets/images/blog/2025/prophet-shuaib-as-teaching-honest-business-pr-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-sulaiman-as-speaking-to-animals-and-jinn-building-temple-of-jerusalem-hoopoe-bird-messenger-queen-bilquis-visiting-throne-wind-transportation.-magical-realism-ancient-wisdom-supe.jpg",
+      "new": "assets/images/blog/2025/prophet-sulaiman-as-speaking-to-animals-and-j-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-yahya-as-baptizing-in-jordan-river__ancient-jordan-river-setting-with-figures-in-historical-attire-symbolic-scene-of-royal-court-confrontation-dark-dramatic-atmosphere-foreshadow.jpg",
+      "new": "assets/images/blog/2025/prophet-yahya-as-baptizing-in-jordan-river__a-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-yaqub-as-with-12-sons-representing-12-tribes-of-israel-joseph-being-thrown-into-well-migration-to-egypt-wrestling-with-angel-receiving-name-israel.-ancient-nomadic-life-family-dr.jpg",
+      "new": "assets/images/blog/2025/prophet-yaqub-as-with-12-sons-representing-12-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-yunus-as-swallowed-by-giant-whale-in-stormy-sea-praying-in-darkness-of-whales-belly-being-vomited-onto-shore-nineveh-people-repenting.-dramatic-sea-storm-whale-interior-redemptio.jpg",
+      "new": "assets/images/blog/2025/prophet-yunus-as-swallowed-by-giant-whale-in--2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-yusuf-as-dreams-interpretation-thrown-into-well-by-brothers-potiphars-wife-zulaikha-false-accusation-prison-years-interpreting-pharaohs-dreams-becoming-vizier-of-egypt-family-reu.jpg",
+      "new": "assets/images/blog/2025/prophet-yusuf-as-dreams-interpretation-thrown-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/prophet-zakariya-as-caring-for-maryam-in-temple-praying-for-son-in-old-age-birth-of-yahya-martyrdom-by-jewish-priests.-temple-service-miraculous-birth-tragic-ending.-emotional-biblical-n.jpg",
+      "new": "assets/images/blog/2025/prophet-zakariya-as-caring-for-maryam-in-temp-2025.jpg"
+    },
+    {
+      "old": "assets/images/blog/2025/symbolic-representation-of-islamic-prophecy-completion.-left_-desert-landscape-with-ismails-well-zamzam-flowing-into-genealogical-river-reaching-mecca-and-kaaba.-center_-quran-receiving-.jpg",
+      "new": "assets/images/blog/2025/symbolic-representation-of-islamic-prophecy-c-2025.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2010-indian-ocean-police-ground-event-backend/2010-11-11 (4).JPG",
+      "new": "assets/images/gallery/2010-indian-ocean-police-ground-event-backend/2010-11-11-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2010-indian-ocean-police-ground-event-backend/Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2010-indian-ocean-police-ground-event-backend/amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2010-indian-ocean-police-ground-event-backend/Indian Ocean - With Amir Hashmi (Raipur,2010) (Events).jpg",
+      "new": "assets/images/gallery/2010-indian-ocean-police-ground-event-backend/indian-ocean-with-amir-hashmi-raipur2010-events.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2010-indian-ocean-police-ground-event-backend/thumb_Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2010-indian-ocean-police-ground-event-backend/thumb_amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2010-star-of-the-year-judge-for-the-audition-round-in-durg/100_7320 (2).JPG",
+      "new": "assets/images/gallery/2010-star-of-the-year-judge-for-the-audition-round-in-durg/100_7320-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2010-star-of-the-year-judge-for-the-audition-round-in-durg/Amir Hashmi (Primary Image) .jpg (2).jpg",
+      "new": "assets/images/gallery/2010-star-of-the-year-judge-for-the-audition-round-in-durg/amir-hashmi-primary-image-jpg-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2010-star-of-the-year-judge-for-the-audition-round-in-durg/thumb_Amir Hashmi (Primary Image) .jpg (2).jpg",
+      "new": "assets/images/gallery/2010-star-of-the-year-judge-for-the-audition-round-in-durg/thumb_amir-hashmi-primary-image-jpg-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (10).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-10.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (10).JPG.tmp",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-10jpg.tmp"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (11).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-11.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (11).JPG.tmp",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-11jpg.tmp"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (12).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-12.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (13).jpg",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-13.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (2).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (3).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (4).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (4).JPG.tmp",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-4jpg.tmp"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (5).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (6).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-6.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (6).JPG.tmp",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-6jpg.tmp"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (7).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-7.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (7).JPG.tmp",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-7jpg.tmp"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (8).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-8.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (8).JPG.tmp",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-8jpg.tmp"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (9).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-9.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg (9).JPG.tmp",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg-9jpg.tmp"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg.JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/Amir Hashmi (Primary Image) .jpg.JPG.tmp",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/amir-hashmi-primary-image-jpgjpg.tmp"
+    },
+    {
+      "old": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/thumb_Amir Hashmi (Primary Image) .jpg (10).JPG",
+      "new": "assets/images/gallery/2012-bhoramdev-mahotsav-sufi-concert-performance/thumb_amir-hashmi-primary-image-jpg-10.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2013-gujra-village-meer-foundation-event-on-a-remote-village/1888625_761946410534359_2612850573387797115_n(1).jpg",
+      "new": "assets/images/gallery/2013-gujra-village-meer-foundation-event-on-a-remote-village/1888625_761946410534359_2612850573387797115_n1.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2013-gujra-village-meer-foundation-event-on-a-remote-village/Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2013-gujra-village-meer-foundation-event-on-a-remote-village/amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2013-gujra-village-meer-foundation-event-on-a-remote-village/thumb_Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2013-gujra-village-meer-foundation-event-on-a-remote-village/thumb_amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/Amir Hashmi (Primary Image) .jpg",
+      "new": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/amir-hashmi-primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/Amir Hashmi (Primary Image) .jpg (2).jpg",
+      "new": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/amir-hashmi-primary-image-jpg-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/Amir Hashmi (Primary Image) .jpg (3).jpg",
+      "new": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/amir-hashmi-primary-image-jpg-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/Amir Hashmi (Primary Image) .jpg (4).jpg",
+      "new": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/amir-hashmi-primary-image-jpg-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/Amir Hashmi (Primary Image) .jpg (5).jpg",
+      "new": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/amir-hashmi-primary-image-jpg-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/thumb_Amir Hashmi (Primary Image) .jpg",
+      "new": "assets/images/gallery/2014-chhattisgarh-rajyotsav-amir-hashmi-on-concert/thumb_amir-hashmi-primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/Amir Hashmi (Primary Image)  (2).jpg",
+      "new": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/amir-hashmi-primary-image-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/Amir Hashmi (Primary Image) .jpg",
+      "new": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/amir-hashmi-primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/Chhattisgarh Folk Amir Hashmi Group (1).jpg",
+      "new": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/chhattisgarh-folk-amir-hashmi-group-1.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/Chhattisgarh Folk Amir Hashmi Group (2).jpg",
+      "new": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/chhattisgarh-folk-amir-hashmi-group-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/Chhattisgarh Folk Amir Hashmi Group (3).jpg",
+      "new": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/chhattisgarh-folk-amir-hashmi-group-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/Chhattisgarh Folk Amir Hashmi Group (4).jpg",
+      "new": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/chhattisgarh-folk-amir-hashmi-group-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/Chhattisgarh Folk Amir Hashmi Group (5).jpg",
+      "new": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/chhattisgarh-folk-amir-hashmi-group-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/Chhattisgarh Folk Amir Hashmi Group (6).jpg",
+      "new": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/chhattisgarh-folk-amir-hashmi-group-6.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/thumb_Amir Hashmi (Primary Image)  (2).jpg",
+      "new": "assets/images/gallery/2014-rajim-kumbh-mahotsav-amir-hashmi-on-concert-sufi-concert/thumb_amir-hashmi-primary-image-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-workshop-with-youth-meer-foundation-initiative/Amir Hashmi (Primary Image) .jpg (2).jpg",
+      "new": "assets/images/gallery/2014-workshop-with-youth-meer-foundation-initiative/amir-hashmi-primary-image-jpg-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-workshop-with-youth-meer-foundation-initiative/Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2014-workshop-with-youth-meer-foundation-initiative/amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2014-workshop-with-youth-meer-foundation-initiative/thumb_Amir Hashmi (Primary Image) .jpg (2).jpg",
+      "new": "assets/images/gallery/2014-workshop-with-youth-meer-foundation-initiative/thumb_amir-hashmi-primary-image-jpg-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-cicasa-fest-amir-hashmi-on-concert/Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2015-cicasa-fest-amir-hashmi-on-concert/amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-cicasa-fest-amir-hashmi-on-concert/thumb_Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2015-cicasa-fest-amir-hashmi-on-concert/thumb_amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (10).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-10.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (11).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-11.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (12).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-12.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (13).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-13.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (14).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-14.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (15).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-15.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (16).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-16.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (17).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-17.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (18).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-18.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (19).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-19.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (2).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (20).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-20.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (21).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-21.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (3).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (4).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (5).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (6).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-6.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (7).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-7.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/KyuAisaHotaHian Music Launch Event .jpg (8).jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/kyuaisahotahian-music-launch-event-jpg-8.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-kyu-aisa-hota-hain/thumb_KyuAisaHotaHian Music Launch Event .jpg",
+      "new": "assets/images/gallery/2015-kyu-aisa-hota-hain/thumb_kyuaisahotahian-music-launch-event.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (0).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-0.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (10).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-10.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (11).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-11.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (12).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-12.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (13).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-13.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (14).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-14.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (15).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-15.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (2).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (3).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (5).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (6).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-6.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (7).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-7.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (8).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-8.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths (9).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths-9.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015 - Music Workshop Event at Bhilai with Youths.jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/2015-music-workshop-event-at-bhilai-with-youths.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/thumb_2015 - Music Workshop Event at Bhilai with Youths (0).jpg",
+      "new": "assets/images/gallery/2015-music-workshop-event-at-bhilai-with-youths/thumb_2015-music-workshop-event-at-bhilai-with-you.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015 - New Year Celebration host by amir hashmi vibe (2).jpg",
+      "new": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015-new-year-celebration-host-by-amir-hashmi-vibe.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015 - New Year Celebration host by amir hashmi vibe (3).jpg",
+      "new": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015-new-year-celebration-host-by-amir-hashmi-_1.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015 - New Year Celebration host by amir hashmi vibe (4).jpg",
+      "new": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015-new-year-celebration-host-by-amir-hashmi-_2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015 - New Year Celebration host by amir hashmi vibe (5).jpg",
+      "new": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015-new-year-celebration-host-by-amir-hashmi-_3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015 - New Year Celebration host by amir hashmi vibe (6).jpg",
+      "new": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015-new-year-celebration-host-by-amir-hashmi-_4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015 - New Year Celebration host by amir hashmi vibe.jpg",
+      "new": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/2015-new-year-celebration-host-by-amir-hashmi-_5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/thumb_2015 - New Year Celebration host by amir hashmi vibe (2).jpg",
+      "new": "assets/images/gallery/2015-new-year-celebration-host-by-amir-hashmi-vibe/thumb_2015-new-year-celebration-host-by-amir-hashm.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015 - Student Workshop Event at 36 mall raipur (3).jpg",
+      "new": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015-student-workshop-event-at-36-mall-raipur-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015 - Student Workshop Event at 36 mall raipur (4).jpg",
+      "new": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015-student-workshop-event-at-36-mall-raipur-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015 - Student Workshop Event at 36 mall raipur (5).jpg",
+      "new": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015-student-workshop-event-at-36-mall-raipur-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015 - Student Workshop Event at 36 mall raipur (6).jpg",
+      "new": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015-student-workshop-event-at-36-mall-raipur-6.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015 - Student Workshop Event at 36 mall raipur (7).jpg",
+      "new": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015-student-workshop-event-at-36-mall-raipur-7.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015 - Student Workshop Event at 36 mall raipur (8).jpg",
+      "new": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015-student-workshop-event-at-36-mall-raipur-8.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015 - Student Workshop Event at 36 mall raipur.jpg",
+      "new": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/2015-student-workshop-event-at-36-mall-raipur.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/thumb_2015 - Student Workshop Event at 36 mall raipur (3).jpg",
+      "new": "assets/images/gallery/2015-student-workshop-event-at-36-mall-raipur/thumb_2015-student-workshop-event-at-36-mall-raipu.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-acting-workshop/2016 - Acting Workshop (2).jpg",
+      "new": "assets/images/gallery/2016-acting-workshop/2016-acting-workshop-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-acting-workshop/2016 - Acting Workshop (3).jpg",
+      "new": "assets/images/gallery/2016-acting-workshop/2016-acting-workshop-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-acting-workshop/2016 - Acting Workshop (4).jpg",
+      "new": "assets/images/gallery/2016-acting-workshop/2016-acting-workshop-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-acting-workshop/2016 - Acting Workshop (5).jpg",
+      "new": "assets/images/gallery/2016-acting-workshop/2016-acting-workshop-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-acting-workshop/2016 - Acting Workshop (6).jpg",
+      "new": "assets/images/gallery/2016-acting-workshop/2016-acting-workshop-6.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-acting-workshop/2016 - Acting Workshop (7).jpg",
+      "new": "assets/images/gallery/2016-acting-workshop/2016-acting-workshop-7.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-acting-workshop/2016 - Acting Workshop.jpg",
+      "new": "assets/images/gallery/2016-acting-workshop/2016-acting-workshop.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-acting-workshop/thumb_2016 - Acting Workshop (2).jpg",
+      "new": "assets/images/gallery/2016-acting-workshop/thumb_2016-acting-workshop-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-art-of-performing-workshop-with-st-xaviers-school-student/Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2016-art-of-performing-workshop-with-st-xaviers-school-student/amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-art-of-performing-workshop-with-st-xaviers-school-student/thumb_Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2016-art-of-performing-workshop-with-st-xaviers-school-student/thumb_amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-balodabazar-art-of-performing-workshop/Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2016-balodabazar-art-of-performing-workshop/amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-balodabazar-art-of-performing-workshop/thumb_Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2016-balodabazar-art-of-performing-workshop/thumb_amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016 - Chhattisgarh ki Shaan (2).jpg",
+      "new": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016-chhattisgarh-ki-shan-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016 - Chhattisgarh ki Shaan (3).jpg",
+      "new": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016-chhattisgarh-ki-shan-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016 - Chhattisgarh ki Shaan (4).jpg",
+      "new": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016-chhattisgarh-ki-shan-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016 - Chhattisgarh ki Shaan (5).jpg",
+      "new": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016-chhattisgarh-ki-shan-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016 - Chhattisgarh ki Shaan.jpg",
+      "new": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/2016-chhattisgarh-ki-shan.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/thumb_2016 - Chhattisgarh ki Shaan (2).jpg",
+      "new": "assets/images/gallery/2016-chhattisgarh-ki-shaan-grand-finale/thumb_2016-chhattisgarh-ki-shan-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2017-bemetara-annual-day-chief-guest/Amir Hashmi (Primary Image) .jpg (2).jpg",
+      "new": "assets/images/gallery/2017-bemetara-annual-day-chief-guest/amir-hashmi-primary-image-jpg-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2017-bemetara-annual-day-chief-guest/Amir Hashmi (Primary Image) .jpg (3).jpg",
+      "new": "assets/images/gallery/2017-bemetara-annual-day-chief-guest/amir-hashmi-primary-image-jpg-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2017-bemetara-annual-day-chief-guest/Amir Hashmi (Primary Image) .jpg.jpg",
+      "new": "assets/images/gallery/2017-bemetara-annual-day-chief-guest/amir-hashmi-primary-image-jpg.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2017-bemetara-annual-day-chief-guest/thumb_Amir Hashmi (Primary Image) .jpg (2).jpg",
+      "new": "assets/images/gallery/2017-bemetara-annual-day-chief-guest/thumb_amir-hashmi-primary-image-jpg-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/amir hashm news bite.00_00_04_18.Still001.jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/amir-hashm-news-bite00_00_04_18still001.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/amir hashm news bite.00_00_07_05.Still002.jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/amir-hashm-news-bite00_00_07_05still002.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/amir hashm news bite.00_00_07_05.Still003.jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/amir-hashm-news-bite00_00_07_05still003.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/amir hashm news bite.00_00_07_11.Still004.jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/amir-hashm-news-bite00_00_07_11still004.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/amir hashm news bite.00_07_10_02.Still005.jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/amir-hashm-news-bite00_07_10_02still005.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/amir hashm news bite.00_08_37_13.Still006.jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/amir-hashm-news-bite00_08_37_13still006.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/amir hashm news bite.00_09_26_08.Still007.jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/amir-hashm-news-bite00_09_26_08still007.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (10).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-10.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (11).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-11.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (12).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-12.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (13).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-13.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (14).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-14.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (15).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-15.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (16).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-16.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (2).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (3).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (4).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (7).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-7.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (8).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-8.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/Bolti Nadi Conclave (9).jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/bolti-nadi-conclave-9.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-bolti-nadi-conclave/thumb_amir hashm news bite.00_00_04_18.Still001.jpg",
+      "new": "assets/images/gallery/2019-bolti-nadi-conclave/thumb_amir-hashm-news-bite00_00_04_18still001.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-mcai-agm-meeting-with-music-director-jatin-lalit/Primary Image.jpg",
+      "new": "assets/images/gallery/2019-mcai-agm-meeting-with-music-director-jatin-lalit/primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-mcai-agm-meeting-with-music-director-jatin-lalit/thumb_Primary Image.jpg",
+      "new": "assets/images/gallery/2019-mcai-agm-meeting-with-music-director-jatin-lalit/thumb_primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-tiranga-flag-rally/Primary Image (2).jpg",
+      "new": "assets/images/gallery/2019-tiranga-flag-rally/primary-image-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-tiranga-flag-rally/Primary Image (3).jpg",
+      "new": "assets/images/gallery/2019-tiranga-flag-rally/primary-image-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-tiranga-flag-rally/Primary Image (4).jpg",
+      "new": "assets/images/gallery/2019-tiranga-flag-rally/primary-image-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-tiranga-flag-rally/Primary Image.jpg",
+      "new": "assets/images/gallery/2019-tiranga-flag-rally/primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-tiranga-flag-rally/thumb_Primary Image (2).jpg",
+      "new": "assets/images/gallery/2019-tiranga-flag-rally/thumb_primary-image-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-tiranga-world-record-event/Primary Image (2).jpg",
+      "new": "assets/images/gallery/2019-tiranga-world-record-event/primary-image-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-tiranga-world-record-event/Primary Image (3).jpg",
+      "new": "assets/images/gallery/2019-tiranga-world-record-event/primary-image-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-tiranga-world-record-event/Primary Image (4).jpg",
+      "new": "assets/images/gallery/2019-tiranga-world-record-event/primary-image-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-tiranga-world-record-event/Primary Image.jpg",
+      "new": "assets/images/gallery/2019-tiranga-world-record-event/primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2019-tiranga-world-record-event/thumb_Primary Image (2).jpg",
+      "new": "assets/images/gallery/2019-tiranga-world-record-event/thumb_primary-image-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2021-cpl-cricket-trials/Primary Image (2).jpg",
+      "new": "assets/images/gallery/2021-cpl-cricket-trials/primary-image-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2021-cpl-cricket-trials/Primary Image.jpg",
+      "new": "assets/images/gallery/2021-cpl-cricket-trials/primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2021-cpl-cricket-trials/thumb_Primary Image (2).jpg",
+      "new": "assets/images/gallery/2021-cpl-cricket-trials/thumb_primary-image-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2021-cpl-cricket-trials-brand-ambassador/Primary Image.JPG",
+      "new": "assets/images/gallery/2021-cpl-cricket-trials-brand-ambassador/primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2021-cpl-cricket-trials-brand-ambassador/Primary Image.JPG.tmp",
+      "new": "assets/images/gallery/2021-cpl-cricket-trials-brand-ambassador/primary-imagejpg.tmp"
+    },
+    {
+      "old": "assets/images/gallery/2021-cpl-cricket-trials-brand-ambassador/thumb_Primary Image.JPG",
+      "new": "assets/images/gallery/2021-cpl-cricket-trials-brand-ambassador/thumb_primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2021-rachna-utsav-india-today/Primary Image.jpg",
+      "new": "assets/images/gallery/2021-rachna-utsav-india-today/primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2021-rachna-utsav-india-today/thumb_Primary Image.jpg",
+      "new": "assets/images/gallery/2021-rachna-utsav-india-today/thumb_primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2022-johar-gandhi-fan-movements/Primary Image.jpg",
+      "new": "assets/images/gallery/2022-johar-gandhi-fan-movements/primary-image.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2022-johar-gandhi-shahid-smarak/IMG_20221130_184822 (2).jpg",
+      "new": "assets/images/gallery/2022-johar-gandhi-shahid-smarak/img_20221130_184822-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2022-johar-gandhi-shahid-smarak/IMG_20221130_185002 (2).jpg",
+      "new": "assets/images/gallery/2022-johar-gandhi-shahid-smarak/img_20221130_185002-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2022-johar-gandhi-shahid-smarak/IMG_20221130_185056 (2).jpg",
+      "new": "assets/images/gallery/2022-johar-gandhi-shahid-smarak/img_20221130_185056-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2022-johar-gandhi-shahid-smarak/IMG_20221130_185145 (2).jpg",
+      "new": "assets/images/gallery/2022-johar-gandhi-shahid-smarak/img_20221130_185145-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2022-johar-gandhi-shahid-smarak/IMG_20221130_185258 (2).jpg",
+      "new": "assets/images/gallery/2022-johar-gandhi-shahid-smarak/img_20221130_185258-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/thumb_WhatsApp Image 2024-02-19 at 03.06.09 (1).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/thumb_whatsapp-image-2024-02-19-at-030609-1.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.09 (1).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030609-1.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.09.jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030609.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.10 (1).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030610-1.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.10 (2).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030610-2.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.10.jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030610.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.11 (1).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030611-1.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.11 (2).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030611-2.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.11.jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030611.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.12 (1).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030612-1.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.12 (2).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030612-2.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.12 (3).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030612-3.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.12.jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030612.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.13 (1).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030613-1.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.13 (2).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030613-2.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.13.jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030613.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.14 (1).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030614-1.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.14 (2).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030614-2.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.14.jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030614.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.15 (1).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030615-1.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/WhatsApp Image 2024-02-19 at 03.06.15 (2).jpeg",
+      "new": "assets/images/gallery/2023-appriaracne-in-kabir-events-with-cm-bhupesh-baghel/whatsapp-image-2024-02-19-at-030615-2.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/2018-02-19 Workshop - Janjgeer.jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/2018-02-19-workshop-janjgir.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (1)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-1-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (1).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-1.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (10)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-10-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (10).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-10.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (11)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-11-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (11).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-11.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (12)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-12-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (12).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-12.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (13)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-13-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (13).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-13.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (2)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-2-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (2).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (3)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-3-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (3).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (4)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-4-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (4).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (5)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-5-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (5).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (6)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-6-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (6).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-6.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (7)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-7-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (7).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-7.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (8)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-8-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (8).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-8.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (9)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-9-aipixels.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Close-ups (9).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-close-ups-9.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (1)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-1-aipix.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (1).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-1.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (2)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-2-aipix.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (2).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (3)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-3-aipix.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (3).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (4)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-4-aipix.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (4).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (5)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-5-aipix.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (5).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (6)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-6-aipix.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (6).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-6.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (7)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-7-aipix.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (7).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-7.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (8)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-8-aipix.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Fan Movements (8).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-fan-movements-8.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (1)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-1.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (1).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-1.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (10)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-10.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (10).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-10.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (11)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-11.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (11).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-11.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (12)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-12.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (12).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-12.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (13)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-13.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (13).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-13.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (14)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-14.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (14).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-14.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (15)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-15.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (15).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-15.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (16)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-16.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (16).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-16.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (17)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-17.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (17).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-17.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (18)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-18.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (18).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-18.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (19)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-19.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (19).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-19.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (2)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-2.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (2).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (20)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-20.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (20).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-20.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (21)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-21.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (21).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-21.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (22)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-22.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (22).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-22.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (23)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-23.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (23).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-23.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (24)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-24.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (24).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-24.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (25)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-25.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (25).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-25.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (26)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-26.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (26).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-26.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (3)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-3.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (3).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (4)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-4.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (4).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (5)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-5.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (5).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-5.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (6)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-6.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (6).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-6.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (7)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-7.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (7).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-7.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (8)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-8.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (8).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-8.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (9)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-9.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Price Distribution (9).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-price-distribution-9.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Stage (1)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-stage-1-aipixels-lowr.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Stage (1).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-stage-1.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Stage (2)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-stage-2-aipixels-lowr.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Stage (2).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-stage-2.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Stage (3)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-stage-3-aipixels-lowr.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Stage (3).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-stage-3.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Stage (4)-aipixels-lowres-scale-2_00x.jpeg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-stage-4-aipixels-lowr.jpeg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Stage (4).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-stage-4.jpg"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Stage (5)-lowres-scale-2_00x-aipixels.png",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-stage-5-lowres-scale.png"
+    },
+    {
+      "old": "assets/images/gallery/youth-festival-ias-op-chaudhary/Amir Hashmi - Workshop Janjgeer Stage (5).jpg",
+      "new": "assets/images/gallery/youth-festival-ias-op-chaudhary/amir-hashmi-workshop-janjgir-stage-5.jpg"
+    }
+  ],
+  "updated_files": [
+    "posts.json",
+    "gallery.json"
+  ],
+  "verification": {
+    "long_name": 0,
+    "long_path": 0,
+    "hindi": 0,
+    "special": 0
+  }
+}

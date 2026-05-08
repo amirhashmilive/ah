@@ -15,8 +15,6 @@
   var elGrid = document.getElementById('chronicle-grid');
   var elEmpty = document.getElementById('chronicle-empty');
   var elPagination = document.getElementById('chronicle-pagination');
-  var elCount = document.getElementById('chronicle-count');
-  var elSkeleton = document.getElementById('chronicle-skeleton');
   var elSearch = document.getElementById('chronicle-search');
   var elYear = document.getElementById('chronicle-year');
   var elCat = document.getElementById('chronicle-cat');
@@ -163,11 +161,7 @@
     var pages = Math.max(1, Math.ceil(total / PER_PAGE));
     if (page > pages) page = pages;
 
-    if (elCount) {
-      elCount.textContent = total === allPosts.length
-        ? total + ' posts'
-        : total + ' posts (filtered from ' + allPosts.length + ')';
-    }
+
 
     elGrid.innerHTML = '';
     if (total === 0) {
@@ -264,7 +258,6 @@
   }
 
   function showSkeleton(show) {
-    if (elSkeleton) elSkeleton.hidden = !show;
     if (elGrid) elGrid.style.opacity = show ? '0.5' : '1';
     if (show && elEmpty) {
       elEmpty.hidden = false;
