@@ -157,6 +157,21 @@
     .quick-fact-icon { font-size: 2rem; margin-bottom: 8px; }
     .quick-fact-val { font-family: var(--font-serif); font-size: 1.8rem; font-weight: 800; color: var(--navy); background: var(--grad-brand); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
     .quick-fact-label { font-size: 0.78rem; color: var(--text-3); font-weight: 600; margin-top: 4px; }
+
+    /* Social Feeds */
+    .social-feed-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+    .social-card { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: all 0.3s ease; display: flex; flex-direction: column; }
+    .social-card:hover { border-color: var(--amber, #f59e0b); transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.2); }
+    .social-card-title { padding: 16px 20px; margin: 0; font-size: 1.1rem; font-weight: 600; color: #fff; border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02); display: flex; align-items: center; }
+    .social-card-content { flex: 1; display: flex; flex-direction: column; }
+    @media (max-width: 992px) {
+      .social-feed-grid { grid-template-columns: repeat(2, 1fr); }
+      .social-feed-grid .social-card:nth-child(3) { grid-column: 1 / -1; }
+    }
+    @media (max-width: 768px) {
+      .social-feed-grid { grid-template-columns: 1fr; }
+      .social-feed-grid .social-card:nth-child(3) { grid-column: auto; }
+    }
   </style>
 </head>
 <body>
@@ -493,6 +508,55 @@
            target="_blank" rel="noopener noreferrer">
           IMDb
         </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════
+     SOCIAL FEEDS SECTION
+═══════════════════════════════════════════════════════ -->
+<section class="section" style="background:var(--bg-2);" id="social-feeds" aria-labelledby="social-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag" style="background:rgba(245,158,11,0.1);color:var(--amber, #f59e0b);border:1px solid rgba(245,158,11,0.2);">Stay Connected</div>
+      <h2 class="section-title" id="social-heading">Latest from Social Media</h2>
+    </div>
+
+    <div class="social-feed-grid reveal">
+      <!-- YouTube -->
+      <div class="social-card">
+        <h3 class="social-card-title"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" style="color:#ff0000;margin-right:8px;vertical-align:middle;"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>YouTube</h3>
+        <div class="social-card-content" style="padding:0; position:relative; background:#050505; height:240px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;">
+          <div style="color:rgba(255,255,255,0.7); font-size:0.9rem; padding:20px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:48px;height:48px;color:#ff0000;margin-bottom:12px;opacity:0.9;"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            <div style="font-weight:600;color:#fff;margin-bottom:8px;">Latest Video</div>
+            <a href="https://www.youtube.com/@amirhashmilive" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding:8px 18px;font-size:0.85rem;margin-top:10px;">
+              Watch on YouTube &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Twitter/X -->
+      <div class="social-card">
+        <h3 class="social-card-title"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" style="color:#fff;margin-right:8px;vertical-align:middle;"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>X (Twitter)</h3>
+        <div class="social-card-content" style="height:240px; overflow-y:auto; background:rgba(0,0,0,0.2); padding:16px;">
+          <a class="twitter-timeline" href="https://twitter.com/amirhashmilive" data-tweet-limit="1" data-chrome="noheader nofooter noborders transparent" data-theme="dark">Tweets by @amirhashmilive</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+
+      <!-- Facebook -->
+      <div class="social-card">
+        <h3 class="social-card-title"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" style="color:#1877f2;margin-right:8px;vertical-align:middle;"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>Facebook</h3>
+        <div class="social-card-content" style="height:240px; overflow:hidden; background:rgba(255,255,255,0.95); display:flex; justify-content:center; align-items:flex-start;">
+          <div id="fb-root"></div>
+          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="1X"></script>
+          <div class="fb-page" data-href="https://www.facebook.com/amirhashmilive" data-tabs="timeline" data-width="340" data-height="240" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+            <blockquote cite="https://www.facebook.com/amirhashmilive" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/amirhashmilive">Amir Hashmi</a></blockquote>
+          </div>
+        </div>
       </div>
     </div>
   </div>
